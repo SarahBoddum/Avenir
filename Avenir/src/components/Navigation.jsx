@@ -5,7 +5,7 @@ export default function Navigation() {
         <nav className="navigation">
             <NavLink to="/">Forside</NavLink>
             <NavLink to="/Om">Om os</NavLink>
-            <NavLink to="/contact">Kontakt</NavLink>
+            <NavLink id="1234" className={'hej'} to="/contact">Kontakt</NavLink>
         </nav>
     )
 }
