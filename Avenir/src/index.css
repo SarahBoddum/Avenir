@@ -1,3 +1,36 @@
-.hej {
-    color: brown;
+*{
+    margin: 0;
+    top: 0;
+}
+body{
+    background-color: #201F1F;
+}   
+.navigation{
+    height: 50px;
+    background-color: #201F1F;
+    border-bottom: solid 1px white;
+    padding-top: 30px;
+}
+.navlink{
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 1.3vw;
+    font-weight: lighter;
+}
+.navlink:hover{
+    color: #D2F69E;
+}
+#logo{
+    font-size: 1.5vw;
+    margin-left: 2%;
+    margin-right: 40%;
+}
+#kontakt{
+    color: #D2F69E;
+}
+#kontakt:hover{
+    color: #ADFD82;
 }
