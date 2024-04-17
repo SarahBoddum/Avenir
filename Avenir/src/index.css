@@ -1,15 +1,58 @@
+@import url("https://use.typekit.net/pae4ftg.css");
+@font-face {
+    src: url("https://use.typekit.net/pae4ftg.css");
+    font-family: "campaign-serif", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 *{
     margin: 0;
     top: 0;
+    box-sizing: border-box;
+}
+.mobil{
+    display: none;
+}
+.laptop{
+    display: block;
 }
 body{
     background-color: #201F1F;
-}   
+} 
+h1{
+    font-family: "campaign-serif", sans-serif;
+    color: white;
+    font-size: 4vw;
+    line-height: 1.2;
+} 
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 1.7vw;
+    line-height: 1.5;
+}
+
+/*----------------------------navigation/header----------------------------------*/ 
 .navigation{
-    height: 50px;
+    height: 70px;
     background-color: #201F1F;
     border-bottom: solid 1px white;
-    padding-top: 30px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    padding-top: 8px;
+    top: 0;
+    
+}
+#burger-menu{
+    display: none;
 }
 .navlink{
     margin-left: 3%;
@@ -17,20 +60,394 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ffff;
     text-decoration: none;
-    font-size: 1.3vw;
     font-weight: lighter;
+    font-size: 15pt;
+    flex-direction: row;
 }
 .navlink:hover{
     color: #D2F69E;
 }
-#logo{
-    font-size: 1.5vw;
+.navlink h3:hover{
+    color: #D2F69E;
+}
+#menu{
+    width: 100%;
+}
+
+#logolink{
+    font-size: 30pt;
+    font-family: "campaign-serif", sans-serif;
     margin-left: 2%;
-    margin-right: 40%;
+    margin-right: 15%;
+    margin-top: -2.5vh;
+}
+#logo{
+    width: 4%;
 }
 #kontakt{
     color: #D2F69E;
 }
 #kontakt:hover{
     color: #ADFD82;
+}
+
+#xul{
+    display: flex;
+    padding-top: 20px;
+    width: 100%;    
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+
+}
+.dropdown-content{
+    color: #ffff;
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    height: 60px;
+    background-color: #201F1F;
+    text-align: center;
+    font-size: 1.2vw;
+    margin-top: 35px; 
+    display:none;
+}
+.dropdown:hover{
+    background-color: #201F1F;
+}
+.dropdown:hover .dropdown-content{
+    display: block flex;   
+}
+
+
+/*--------------Forside----------------*/
+#forsidetop{
+    width: 95%;
+    height: 70vh;
+    display: flex;
+}
+#ramme{
+    width: 65%;
+    height: 70vh;
+    text-align: right;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-y: 30vh;
+    background-position-x: 10%;
+}
+
+#forsidetop h1{
+    font-size: 15vw;   
+    color:#FA8655;
+    padding-top: 17vh;
+}
+#forsidetop h3{
+    font-size: 4vw;
+    padding-right: 4%;
+    
+}
+.btndiv{
+    width: 60%;
+    margin-left: 40%;
+    display: flex;
+    margin-top: 4vh;
+
+}
+.btn{
+    width: 50%;
+    height: 6vh;
+    border: solid 2px white;
+    font-size: 1.5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    padding-top:1.25vh;
+}
+.btnpil{
+    font-size: 1.5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    color: #FA8655;
+    display: flex;
+    padding-top: 1.25vh;
+    padding-left: 7%;
+}
+
+.pil{
+    width: 15%;
+    margin-top: -2vh;
+    margin-left: 3%;
+}
+/*-------------------genbrugsclasses-----------------------------------------*/
+.flex{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.KompEt{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30vh;  
+    justify-content: space-between;
+    margin-bottom: 6vh;
+}
+.rosa{
+    background-color: #EDCBE0;
+}
+.rosatxt{
+    color: #EDCBE0;
+}
+.orange{
+    background-color: #FA8655;
+}
+.lysgron{
+    background-color: #D2F69E;
+}
+.neongron{
+    background-color: #ADFD82;
+}
+.rod{
+    background-color: #FE4F32;
+}
+
+
+
+/*grafisk element-----*/
+.figurramme{
+    width: 35vw;
+    height: 35vw;
+    display: flex;
+}
+.reversrow{
+    flex-direction: row-reverse;
+}
+.aflang{
+    height: 100%;
+    border-top-right-radius: 10vw;
+    border-bottom-left-radius: 10vw;
+    width: 50%;
+    border: solid 1px #707070
+}
+.tosma{
+   width: 50%;
+   height: 100%;
+}
+.enrund{
+    width: 100%;
+    height: 50%;
+    border-top-right-radius: 50%;
+    border: solid 1px #707070
+}
+.torund{
+    width: 100%;
+    height: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border: solid 1px #707070
+}
+
+/*-------------------------------------------*/
+
+.blad{
+    width: 80%;
+    margin-top: 10vh;
+    height: 60vh;
+    background-color: #ADFD82;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    margin-left: 5%;
+}
+.h1-p{
+    width: 55%; 
+}
+.h1-p h1{
+    margin-bottom: 4vh;
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px){
+    .mobil{
+        display: block;
+    }
+    .laptop{
+        display: none;
+    }
+    h1{
+        font-size: 10vw;
+    }
+    p{
+        font-size: 5vw;
+    }
+    /*-------------burger---------------*/
+    .navlink{
+        font-size: 7vw;
+    }
+    #burger-menu{
+        display: block;
+    }
+    #burger-menu span{
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    #burger-menu span,
+    #burger-menu span::before,
+    #burger-menu span::after {
+        background: #ffff;
+        display: block;
+        height: 3px;
+        opacity: 1;
+        position: absolute;
+        transition: 0.3s ease-in-out;
+    }
+    #burger-menu span:before,
+    #burger-menu span:after {
+            content: "";
+    }
+    #burger-menu span:before {
+        left: 0px;
+        top: -10px;
+        width: 27px;
+    }
+    #burger-menu span {
+        right: 0px;
+        top: 13px;
+        width: 27px;
+    }
+    #burger-menu span:after {
+        left: 0px;
+        top: 10px;
+        width: 27px;
+    }
+    #burger-menu.close span:before {
+        top: 0px;
+        transform: rotate(90deg);
+        width: 27px;
+    }
+    #burger-menu.close span {
+        transform: rotate(-45deg);
+        top: 13px;
+        width: 27px;
+    }
+    #burger-menu.close span:after {
+        top: 0px;
+        left: 0;
+        transform: rotate(90deg);
+        opacity: 0;
+        width: 0;
+    }
+    #Mlogo{
+        width: 6%;
+        margin-right: 2%;
+        margin-top: 10px;
+    }
+    #Mlogolink{
+        font-family: "campaign-serif", sans-serif;
+        font-size: 7vw;
+        color: #ffff;
+    }
+    #menu {
+        z-index: 1;
+        min-width: 100%;
+        min-height: 100vh;
+        position: fixed;
+        top: 0;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+    }
+    #menu.overlay {
+        visibility: visible;
+        opacity: 1;
+        margin-top: 50px;
+        background-color: #201F1F;
+
+    }
+    #xul {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        gap: 15%;
+        height: 70vh;
+        margin-top: 20px;
+        text-align: center;
+        padding-top: 10vh;
+ 
+    }
+    .dropdown-content{
+       margin-bottom: 4vh;
+       font-size: 12pt;
+    }
+
+    /*------------forside----------------*/
+
+    #forsidetop{
+        flex-direction: column;
+        height: 100vh;
+    }
+    .blad{
+        width: 95%;
+        height: 50%;
+    }
+    #ramme{
+        height: 50vh;
+        width: 90%;
+        margin-left: 5%;
+        text-align: left;
+    }
+    #forsidetop h1{
+        padding-top: 1vh;
+        font-size: 20vw;
+    }
+    #forsidetop h3{
+        font-size: 8vw;
+    }
+    .btndiv{
+        width: 70%;
+        margin-left: 0%;
+        flex-direction: column;
+        margin-top: 2vh;
+    }
+    .btn{
+        width: 80%;
+        height: 4vh;
+        font-size: 5vw;
+        padding-top: 0.5vh;
+    }
+    .btnpil{
+        font-size: 5vw;
+        padding-top: 2vh;
+    }
+    .pil{
+        margin-top: -0.6vh;
+    }
+    .reversrow{
+        flex-direction: column-reverse;
+    }
+    .KompEt{
+        margin-top: 10vh;
+    }
+    .figurramme{
+        width: 90vw;
+        height: 90vw;
+    }
+    .aflang{
+        height: 100%;
+        width: 50%;
+        border-top-right-radius: 25vw;
+        border-bottom-left-radius: 25vw;
+    }
+    .h1-p{
+        width: 90%;
+        margin-bottom: 5vh;
+    }
+
 }
