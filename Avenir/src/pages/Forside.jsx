@@ -1,9 +1,13 @@
-import React from 'react'
-import pil from '../assets/Images/pil.svg'
-import logo from '../assets/Images/gralogo.png'
-import KompEt from '../components/KompEt'
-import KompTo from '../components/KompTo'
-import gronoje from '../assets/Images/soOje.jpg'
+import React from 'react';
+import pil from '../assets/Images/pil.svg';
+import logo from '../assets/Images/gralogo.png';
+import KompEt from '../components/KompEt';
+import KompTo from '../components/KompTo';
+import gronoje from '../assets/Images/soOje.jpg';
+import KompTre from '../components/KompTre';
+import aogs from '../assets/Images/aogs.jpg'
+import KompFire from '../components/KompFire';
+import KompFem from '../components/KompFem';
 
 
 
@@ -41,7 +45,82 @@ export const Forside = () => {
             </div>
             }
         </KompTo>
+        <KompTre
+            treimgSrc={aogs}
+            treimgClass="bladimg"
+            >
+           <div className='komptretxt'>
+                <h1>AVENIR teamet</h1>
+                <p>AVENIR er et ungt webbureau sammensat af fire engagerede kvinder, som deler en passion for bæredygtige løsninger inden for livsstilsbranchen og bringer en mangfoldighed af baggrunde ind i vores arbejde. Vores ekspertise spænder bredt fra mode og makeup til smykker, musik og fotografi.  Vi mødtes under studierne og har opdaget, at vores forskellige erfaringer skaber et dynamisk og kreativt arbejdsmiljø, hvor vi kan skabe unikke og innovative webløsninger for vores kunder.</p>
+                <div className='btn'>SE VORES CASES</div>
+            </div>
+        </KompTre>
+        <div className='KompFire'>
+            <KompFire
+            tombclassName="tombshapeEt">
+            <div className='tombtxt'>
+                <div>
+                    <h1>01.</h1>
+                    <h3>PRINCIP</h3>
+                </div>
+                <p>Effektiv data transfer med komprimering og tilpasning af indholdet</p>
+            </div>
+
+            </KompFire>
+            <KompFire
+            tombclassName="tombshapeEt tsTo">
+            <div className='tombtxt'>
+                <div>
+                    <h1>02.</h1>
+                    <h3>PRINCIP</h3>
+                </div>
+                <p>Brugerne skal effektivt kunne finde frem til deres ønsker/løsninger</p>
+            </div>
+
+            </KompFire>
+            <KompFire
+            tombclassName="tombshapeEt tsTre">
+            <div className='tombtxt'>
+                <div>
+                    <h1>03.</h1>
+                    <h3>PRINCIP</h3>
+                </div>
+                <p> Fortæl om hvad du gør - Intet mere, intet mindre</p>
+            </div>
+
+            </KompFire>
+            <KompFire
+            tombclassName="tombshapeEt tsFire">
+            <div className='tombtxt'>
+                <div>
+                    <h1>04.</h1>
+                    <h3>PRINCIP</h3>
+                </div>
+                <p>Alt det du ikke kan se</p>
+            </div>
+
+            </KompFire>
+
         </div>
+
+        <KompFem
+        SRimg={gronoje}>
+            <div>
+                <h1 className='storH1'>Services</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div className="btndiv leftalign">
+                    <div className="btn storbtn">
+                        PAKKELØSNINGER
+                    </div>                
+                    <div className='btnpil'>
+                        PICK'N'MIX
+                        <img className="pil" src={pil}></img>
+                    </div>
+                </div>
+            </div>
+        </KompFem>
+
+    </div>
   )
 }
 export default Forside

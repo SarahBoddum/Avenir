@@ -193,7 +193,7 @@ p{
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 30vh;  
-    justify-content: space-between;
+
    
 }
 
@@ -260,6 +260,7 @@ p{
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 10vh ;
 }
 .Abaggrund{
     width: 45%;
@@ -283,7 +284,157 @@ p{
     margin-bottom:3vh;
 }
 
+/*-------------3---------*/
+
+.KompTre{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10vh;
+    display: flex;
+}
+.treimg{
+    width: 40%;
+    height: auto;
+}
+.komptretxt{
+    width: 100%;
+    margin-top: 20%;
+}
+.komptretxt h1{
+    padding-left: 5%;
+    border-bottom: solid 1px white;
+    padding-bottom: 2vh;
+    padding-right: 10%;
+    margin-bottom: 2vh;
+    color: #ADFD82;
+    font-size: 4.5vw;
+}
+.komptretxt p{
+    margin-bottom: 3vh;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+.komptretxt .btn{
+    margin-left: 5%;
+}
+.bladimg{
+    border-top-right-radius:  50% 30%;
+    border-bottom-left-radius:  50% 30%;
+}
+
+/*--------------KompFire-------------*/
+.KompFire{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10vh;
+}
+.tombshapeEt{
+    width: 20vw;
+    height: 80vh;
+    background-color: #EDCBE0;
+    border-top-left-radius: 10vw;
+    border-top-right-radius: 10vw;
+}
+.tombtxt{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 5vh;
+    padding-top: 3vh;
+}
+.tombtxt h1{
+    margin-left: 6%;
+    font-size: 12vw;
+}
+.tombtxt h3{
+    font-size: 2vw;
+    color: #FE4F32;
+    padding-left: 5%;
+}
+.tombtxt p{
+    padding-left: 5%;
+    
+}
+.tsTo{
+    height: 65vh;
+    background-color: #ADFD82;
+    margin-top: 15vh;
+}
+.tsTre{
+    height: 70vh;
+    margin-top: 10vh;
+    background-color: #D2F69E;
+}
+.tsFire{
+    background-color: #FA8655;
+}
+
+/*-----------KOMPFEM----------------*/
+
+.storRamme{
+    width: 35vw;
+    height: 35vw;
+    margin-right: 7%;
+}
+.SR{
+    display: flex;
+    width: 100%;
+    height: 33%;
+}
+.SRmidt{
+    display: flex;
+    width: 100%;
+    height: 34%;
+}
+.rundHT{
+    width: 33.33%;
+    height: 100%;
+    border-top-right-radius: 50%;
+}
+.rundHB{
+    width: 33.33%;
+    height: 100%;
+    border-bottom-right-radius: 50%;
+}
+.rundVT{
+    width: 33.33%;
+    height: 100%;
+    border-top-left-radius: 50%;
+}
+.rundVB{
+    width: 33.33%;
+    height: 100%;
+    border-bottom-left-radius: 50%;
+}
+.SRmidtL{
+    width: 33.33%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.SRimg{
+    width: 66.66%;
+    object-fit: cover;
+    border-bottom-left-radius: 40% 60%;
+    border-top-right-radius: 40% 60%;
+}
+.leftalign{
+    margin-left: 0%;
+}
+.storbtn{
+    width: 110%;
+}
+.storH1{
+    font-size: 5vw;
+}
 /*-------------------------------------------*/
+
+
+
+
 
 .blad{
     width: 80%;
@@ -496,5 +647,63 @@ p{
     .komptoTxt{
         width: 90%;
         margin-top: 10vh;
+    }
+    /*----3-------*/
+    .KompTre{
+        flex-direction: column;
+    }
+    .treimg{
+        width: 100%;
+    }
+    .komptretxt{
+        margin-top: 0%;
+    }
+    .komptretxt h1{
+        font-size: 17vw;
+    }
+    .komptretxt p{
+        margin-left: 0%;
+        width: 100%;
+    }
+    .komptretxt .btn{
+        margin-left: 0%;
+        margin-bottom: 4vh;
+    }
+
+    /*-----kompfire---------*/
+    .KompFire{
+        flex-direction: column;
+        
+    }
+    .tombshapeEt{
+        width: 100%;
+        border-radius: 45vw;
+        height: 85vh;
+        margin-top: 10vh;
+    }
+    .tombtxt{
+        padding-bottom: 10vh;
+    }
+    .tombtxt h1{
+        font-size: 50vw;
+        margin-left: 8%;
+    }
+    .tombtxt h3{
+        font-size: 8vw;
+    }
+    .tombtxt p{
+        width: 90%;
+        margin-left: 5%;
+        font-size: 7vw;
+    }
+    /*----------kompfem-------*/
+    .storRamme{
+        width: 90vw;
+        height: 90vw;
+        margin-left: 0%;
+        margin-bottom: 6vh;
+    }
+    .storH1{
+        font-size: 17vw;
     }
 }
