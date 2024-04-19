@@ -25,6 +25,7 @@ h1{
     color: white;
     font-size: 4vw;
     line-height: 1.2;
+    font-weight: lighter;
 } 
 h3{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -37,6 +38,24 @@ p{
     font-weight: lighter;
     font-size: 1.7vw;
     line-height: 1.5;
+}
+.Service{
+    margin-top: 20vh;
+}
+.Trosa{
+    color: #EDCBE0;
+}
+.Tneong{
+    color: #ADFD82;
+}
+.Tlysg{
+    color: #D2F69E;
+}
+.Torange{
+    color: #FA8655;
+}
+.Trod{
+    color: #FE4F32;
 }
 
 /*----------------------------navigation/header----------------------------------*/ 
@@ -193,8 +212,7 @@ p{
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 30vh;  
-
-   
+    margin-bottom: 10vh;  
 }
 
 .rosa{
@@ -214,6 +232,9 @@ p{
 }
 .rod{
     background-color: #FE4F32;
+}
+.mgrå{
+    color: #201F1F;
 }
 
 
@@ -260,7 +281,7 @@ p{
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 10vh ;
+    margin-bottom: 20vh;
 }
 .Abaggrund{
     width: 45%;
@@ -289,7 +310,7 @@ p{
 .KompTre{
     width: 90%;
     margin-left: 5%;
-    margin-bottom: 10vh;
+    margin-bottom: 20vh;
     display: flex;
 }
 .treimg{
@@ -329,7 +350,7 @@ p{
     justify-content: space-between;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 10vh;
+    margin-bottom: 20vh;
 }
 .tombshapeEt{
     width: 20vw;
@@ -394,32 +415,38 @@ p{
     width: 33.33%;
     height: 100%;
     border-top-right-radius: 50%;
+    border: solid 1px #707070;
 }
 .rundHB{
     width: 33.33%;
     height: 100%;
     border-bottom-right-radius: 50%;
+    border: solid 1px #707070;
 }
 .rundVT{
     width: 33.33%;
     height: 100%;
     border-top-left-radius: 50%;
+    border: solid 1px #707070;
 }
 .rundVB{
     width: 33.33%;
     height: 100%;
     border-bottom-left-radius: 50%;
+    border: solid 1px #707070;
 }
 .SRmidtL{
     width: 33.33%;
     border-bottom-left-radius: 50%;
     border-top-right-radius: 50%;
+    border: solid 1px #707070;
 }
 .SRimg{
     width: 66.66%;
     object-fit: cover;
     border-bottom-left-radius: 40% 60%;
     border-top-right-radius: 40% 60%;
+    border: solid 1px #707070;
 }
 .leftalign{
     margin-left: 0%;
@@ -430,9 +457,252 @@ p{
 .storH1{
     font-size: 5vw;
 }
+
+/*-----------------KOMP6----------------*/
+.KompSeks{
+    width: 90%;
+    margin-left: 5%;
+    height: 70vh;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position-x: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20vh;
+}
+.gralogoStj{
+    width: 25%;
+}
+.KompSeks h1{
+    color: #FA8655;
+    font-size: 10vw;
+    text-align: right;
+}
+/*-----------KompSyv----------*/
+.KompSyv{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    margin-bottom: 20vh;
+}
+.SyvText{
+    width: 60%;
+}
+.SyvText h1{
+    margin-bottom: 4vh;
+}
+.hvidstjerne{
+    width: 8vw;
+    height: 8vw;
+    margin-right: -5%;
+    z-index: 2;
+    margin-top: 35vh;
+}
+#Tlysgron{
+    color: #D2F69E;
+}
+.Lilleramme{
+    margin-top: 5vh;
+    width: 25vw;
+    height: 25vw;
+}
+.LSaflang{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-top-left-radius: 25% 60%;
+    border-bottom-right-radius: 25% 60%;
+}
+.LSramme{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.LilleV{
+    width: 50%;
+    height: 100%;
+    border-top-right-radius: 50%;
+}
+.LilleH{
+    width: 50%;
+    height: 100%;
+    border-bottom-left-radius: 50%;
+}
+/*-------------KompOtte--------------*/
+.KompOtte{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20vh;
+}
+.streg{
+    width: 73%;
+    height: 1px;
+    background-color: white;
+    margin-left: 27%;
+    margin-bottom: 3vh;
+}
+.flextext{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.flextext h1{
+    width: 15%;
+    font-size: 15vw;
+    margin-top: -5vh;
+    font-weight: lighter;
+}
+.flextext h2{
+    width: 30%;
+    color: white;
+    font-weight: lighter;
+    margin-left: 10%;
+}
+.flextext p{
+    width: 40%;
+}
+.StjerneCirkler{
+    display: flex;
+    width: 23vw;
+    justify-content: space-between;
+    margin-left: 27%;
+    margin-top: -10vh;
+}
+.cirkelramme{
+    width: 10vw;
+    height: 10vw;
+}
+.cirkeltop{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.StjerneOtte{
+    width: 8vw;
+    height: 8vw;
+    margin-top: 2vh;
+}
+.CTV{
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 100%;
+    background-color: #ADFD82;
+}
+.CTH{
+    width: 50%;
+    height: 100%;
+    border-top-right-radius: 100%;
+    background-color:#EDCBE0;
+}
+.CBV{
+    width: 50%;
+    height: 100%;
+    border-bottom-left-radius: 100%;
+    background-color: #FA8655;
+}
+.CBH{
+    width: 50%;
+    height: 100%;
+    border-bottom-right-radius: 100%;
+    background-color: #FE4F32;
+}
+
+/*-------kompni-------------*/
+.KompNi{
+    width: 90%;
+    margin-left: 5%;
+    border-top: solid 1px white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+.LilleHT{
+    width: 50%;
+    height: 100%;
+    border-top-right-radius: 50%;
+    border: solid 1px #707070
+}
+.deg180{
+    transform: rotate(180deg);
+}
+.LSaflangRotate{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-top-right-radius: 25% 60%;
+    border-bottom-left-radius: 25% 60%;
+}
+.regular{
+    font-size: unset;
+}
+.komp9text{
+    width: 65%;
+    padding-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.komp9text h3{
+    font-size: 3vw;
+}
+.casetext{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.lyserodpil{
+    width: 8%;
+}
+.displayNone{
+    display: none;
+}
 /*-------------------------------------------*/
-
-
+/*-------seervice side-------*/
+.serviceDiv{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    border-top: solid 1px white;
+    padding-top: 10vh;
+    margin-bottom: 10vh;
+}
+.txtLeft{
+    width: 55%;
+    padding-right: 5%;
+    border-right: solid 1px white;
+}
+.txtLeft h1{
+    margin-bottom: 3vh;
+    font-size: 5vw;
+}
+.txtLeft .btnpil{
+    width: 40%;
+    height: 5vh;
+    padding-left: 0%;
+    margin-top: 3vh;
+}
+.txtLeft .btnpil .pil{
+    margin-top: -0.5vh;
+}
+.txtRight{
+    width: 41%;
+    padding-left: 1%;
+    height: 100%;
+    padding-left: 5%;
+    border-left: solid 1px white;
+    margin-left: -1px;
+}
+.txtRight h3{
+    margin-bottom: 3vh;
+    font-size: 2vw;
+    margin-top: 6.5vh;
+}
+.txtRight p{
+    font-size: 1.1vw;
+}
 
 
 
@@ -447,6 +717,7 @@ p{
 }
 .h1-p{
     width: 55%; 
+    padding-right: 5%;
 }
 .h1-p h1{
     margin-bottom: 4vh;
@@ -705,5 +976,102 @@ p{
     }
     .storH1{
         font-size: 17vw;
+    }
+
+
+    /*---------komp6---------*/
+
+    .gralogoStj{
+        width: 55%;
+        margin-top: -7vh;
+    }
+    .KompSeksB{
+        width: 90%;
+        margin-left: 5%;
+        height: 70vh;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position-x: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .omh1 h1{
+        font-size: 20vw;
+    }
+    /*------------Komp7---------_-----*/
+    .KompSyv{
+        flex-direction: column;
+    }
+    .SyvText{
+        width: 100%;
+    }
+    .hvidstjerne{
+        width: 20vw;
+        height: 20vw;
+    }
+    .Lilleramme{
+        margin-top: -40vh;
+        margin-left: 10vw;
+        width: 80vw;
+        height: 80vw;
+    }
+    /*-----------kompotte-----------------*/
+    
+    .flextext{
+        flex-direction: column;
+    }
+    .streg{
+        width: 100%;
+        margin-left: 0%;
+        margin-bottom: 2vh;
+    }
+    .flextext h1{
+        font-size: 50vw;
+
+    }
+    .flextext h2{
+        width: 80%;
+        margin-bottom: 4vh;
+        font-size: 7.5vw;
+    }
+    .flextext p{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .StjerneCirkler{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5vh;
+    }
+    .cirkelramme{
+        width: 30vw;
+        height: 30vw;
+    }
+    .StjerneOtte{
+        width: 30vw;
+        height: 30vw;
+        margin-top: 0vh;
+    }
+    /*------------kompni----------*/
+    .KompNi{
+        flex-direction: column;
+    }
+    .deg180{
+        width: 90vw;
+        height: 90vw;
+        margin-top: 10vh;
+        margin-left: 0;
+    }
+    .komp9text{
+        width: 100%;
+        padding-top: 3vh;
+    }
+    .komp9text h3{
+        font-size: 10vw;
+    }
+    .casetext{
+        justify-content: unset;
+        gap: 5%;
     }
 }

@@ -8,10 +8,18 @@ import KompTre from '../components/KompTre';
 import aogs from '../assets/Images/aogs.jpg'
 import KompFire from '../components/KompFire';
 import KompFem from '../components/KompFem';
+import KompSeks from '../components/KompSeks';
+import omavenirL from '../assets/Images/omavenirL.jpg'
+import KompSyv from '../components/KompSyv';
+import KompOtte from '../components/KompOtte';
+import KompNi from '../components/KompNi';
+import lyserodpil from '../assets/Images/pil.svg';
+
 
 
 
 export const Forside = () => {
+
   return (
     <div>
         <div id='forsidetop'>
@@ -45,6 +53,7 @@ export const Forside = () => {
             </div>
             }
         </KompTo>
+
         <KompTre
             treimgSrc={aogs}
             treimgClass="bladimg"
@@ -119,6 +128,41 @@ export const Forside = () => {
                 </div>
             </div>
         </KompFem>
+        <KompSeks
+            KompSeksclassName='laptop'
+           backgroundImage={omavenirL}>
+            <h1>Om<br />AVENIR</h1>
+        </KompSeks>
+        <KompSyv
+            LRimg={gronoje}
+            LilleH='rosa'
+            LVclassName='orange'>
+            <h1>Vi ønsker at skabe en fremtid hvor <span id='Tlysgron'>bæredygtigt webdesign</span> er for de mange.</h1>
+            <p>Med æstetikken og den gode brugeroplevelse i højsædet, er vores vision at vise vejen mod en mere bevidst digital tilstedeværelse, der kan inspirere og drive branchen mod en bedre fremtid.</p>
+        </KompSyv>
+        <KompOtte
+            CTVclassName=""
+            CTHclassName=""
+            CBVclassNames=""
+            CBHclassName="">
+                <h1>.01</h1>
+                <h2>Brugerne skal effektivt kunne finde frem til deres ønsker/løsninger</h2>
+                <p>Desto mere data der anvendes, desto mere elektricitet strømmer der gennem kablerne, og brug af elektricitet resulterer i udledning af CO2. For at mindske mængden af data er det oplagt at overveje længden af brugerrejsen. Hvis en bruger i øjeblikket skal besøge fire undersider for at fuldføre brugerrejsen, kan en omstrukturering af rejsen til kun to undersider markant reducere CO2-aftrykket af deres besøg på sitet. Samtidig forbedrer dette også brugeroplevelsen ved at gøre vejen til målet hurtigere og mere direkte med færre klik.</p>
+            
+        </KompOtte>
+        <KompNi
+        LRclassName="deg180"
+        LRimg={gronoje}
+        LVclassName="torund rod"
+        LilleHT="rosa">
+            <h3>NEGLEMENTET</h3>
+            <div className='casetext'>
+                <p><span classname="regular">TIDY UP</span> 12/04/2024</p>
+                <img src={lyserodpil} alt="lyserød pil" className='lyserodpil'></img>
+            </div>
+        </KompNi>
+      
+        
 
     </div>
   )
