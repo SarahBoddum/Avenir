@@ -1,15 +1,12 @@
 import React from 'react'
 
-const Team = () => {
+const TeamPage = () => {
   return (
-    <div>
-         <KompSeks
-            KompSeksclassName='laptop'
-           backgroundImage={omavenirL}>
-            <h1>Om<br />AVENIR</h1>
-        </KompSeks>
+    <div className='casePage'>
+      <h1>case</h1>
+        
     </div>
   )
 }
 
-export default Team
+export default TeamPage

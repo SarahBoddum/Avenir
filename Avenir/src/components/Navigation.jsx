@@ -35,7 +35,7 @@ export default function Navigation() {
                     <div className="dropdown"><NavLink className={"navlink"} to="/Om">OM_OS</NavLink>
                     <div className="dropdown-content">
                         <NavLink className={"navlink"} to="/Om">Om Os</NavLink>
-                        <NavLink className={"navlink"}>Vores principper</NavLink>
+                        <NavLink className={"navlink"} to="/Baredygtighed">Vores principper</NavLink>
                         <NavLink className={"navlink"} to="/Team">Mød teamet</NavLink>
                     </div>
                     </div>

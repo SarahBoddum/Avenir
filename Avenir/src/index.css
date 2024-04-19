@@ -57,6 +57,9 @@ p{
 .Trod{
     color: #FE4F32;
 }
+.storH1{
+    font-size: 3vw;
+}
 
 /*----------------------------navigation/header----------------------------------*/ 
 .navigation{
@@ -617,7 +620,8 @@ p{
     border-top: solid 1px white;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5vh;
+    margin-bottom: 10vh;
+    padding-top: 5vh;
 }
 .LilleHT{
     width: 50%;
@@ -630,7 +634,8 @@ p{
 }
 .LSaflangRotate{
     width: 100%;
-    height: 50%;
+    height: 51%;
+    margin-bottom: -1px;
     object-fit: cover;
     border-top-right-radius: 25% 60%;
     border-bottom-left-radius: 25% 60%;
@@ -703,7 +708,26 @@ p{
 .txtRight p{
     font-size: 1.1vw;
 }
-
+.serviceStreg{
+    margin-left: 30%;
+    margin-right: 5%;
+    height: 1px;
+    background-color: white;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+}
+/*----------------cases-------------*/
+.casePage{
+    margin-top: 20vh;
+}
+.topH1{
+    margin-left: 5%;
+    font-size: 6vw;
+    margin-bottom: 13vh;
+}
+.deg90{
+    transform: rotate(-90deg);
+}
 
 
 .blad{
@@ -903,6 +927,7 @@ p{
         width: 90%;
         margin-bottom: 5vh;
     }
+    
     /*-------------KOMP TO-------------*/
     .KompTo{
         flex-direction:column-reverse;
@@ -1066,6 +1091,7 @@ p{
     .komp9text{
         width: 100%;
         padding-top: 3vh;
+        justify-content: unset;
     }
     .komp9text h3{
         font-size: 10vw;
@@ -1074,4 +1100,64 @@ p{
         justify-content: unset;
         gap: 5%;
     }
+    /*-----------serviceside---------------*/
+    .serviceDiv{
+        flex-direction: column;
+    }
+    .txtLeft{
+        width: 100%;
+        border-right: unset;
+    }
+    .txtLeft .btnpil{
+        width: 100%;
+    }
+    .txtLeft h1{
+        font-size: 15vw;
+    }
+ 
+    .txtRight{
+        width: 100%;
+        margin-left: 0px;
+        border-left: unset;
+        padding-left: 0%;
+    }
+    .txtRight h3{
+        font-size: 7vw;
+        margin-top: 12vh;
+    }
+    .txtRight p{
+        font-size: 4vw;
+    }
+    .serviceStreg{
+        width: 90%;
+        margin-left: 5%;
+
+    }
+    .servieH2{
+        text-align: right;
+        
+    }
+    .storH1{
+        font-size: 11vw;
+    }
+   /*-------------cese--------*/
+   .casePage{
+    margin-top: 15vh;
+   }
+   .topH1{
+    font-size: 20vw;
+    margin-bottom: 7vh;
+   }
+   .deg0{
+    margin-top: 9vh;
+    margin-left: 0;
+    width: 90vw;
+    height: 90vw;
+   }
+   .deg90{
+    margin-top: 10vh;
+    margin-left: 0;
+    width: 90vw;
+    height: 90vw;
+   }
 }
