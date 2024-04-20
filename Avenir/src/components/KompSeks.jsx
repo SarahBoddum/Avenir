@@ -2,7 +2,7 @@ import React from 'react';
 import grastjerne from '../assets/Images/logoms.png'
 
 
-const KompSeksB = (props) => {
+const KompSeks = (props) => {
     const {KompSeksclassName, backgroundImage, children } = props;
   return (
     <div className={`KompSeks ${KompSeksclassName}`} style={{backgroundImage: `url(${backgroundImage})`}}>
@@ -14,4 +14,4 @@ const KompSeksB = (props) => {
   )
 }
 
-export default KompSeksB
+export default KompSeks

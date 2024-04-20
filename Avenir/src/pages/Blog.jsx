@@ -23,8 +23,8 @@ const BlogPage = () => {
       <KompNi  
         LRclassName="deg90"
         LRimg={gronoje}
-        LVclassName="torund rod"
-        LilleHT="rosa">
+        LVclassName="torund orange"
+        LilleHT="lysgron">
             <h3>WALTHERS <span className='mobil'><br/></span>VINTAGE</h3>
             <div className='casetext'>
                 <p><span classname="regular">PICTURE PERFECT</span> 12/04/2024</p>
@@ -35,7 +35,7 @@ const BlogPage = () => {
       <KompNi  
         LRclassName="deg0"
         LRimg={gronoje}
-        LVclassName="torund rod"
+        LVclassName="torund neongron"
         LilleHT="rosa">
             <h3>IGEN</h3>
             <div className='casetext'>

@@ -4,6 +4,7 @@ import gronoje from '../assets/Images/soOje.jpg';
 import pil from '../assets/Images/pil.svg';
 import KompEt from '../components/KompEt';
 import KompOtte from '../components/KompOtte';
+import gronoje from '../assets/Images/Servicetop.jpg';
 
 const ServicesPage = () => {
   return (
