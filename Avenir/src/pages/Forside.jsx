@@ -9,6 +9,8 @@ import KompFem from '../components/KompFem';
 import aogs from '../assets/Images/aogs.jpg'
 import KompTre from '../components/KompTre';
 import animation from '../assets/Images/animationAvenir.mp4'
+import Footer from '../components/Footer';
+
 
 
 export const Forside = () => {
@@ -128,6 +130,7 @@ export const Forside = () => {
             </div>
         </KompTre>
 
+        <Footer></Footer>
     </div>
   )
 }

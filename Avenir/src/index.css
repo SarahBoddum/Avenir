@@ -1336,3 +1336,37 @@ p{
    }
 
 }
+
+/*------ Booking -------*/
+
+.bookbox{
+    margin-top: 5em;
+    display: flex;
+}
+
+.bookform{
+    width: 60%;
+}
+
+.bookpic{
+    width: 30%;
+}
+
+/*------- Footer --------*/
+
+.footer{
+    background-color: #707070;
+    display: flex;
+}
+
+.footer1{
+    width: 33%;
+}
+
+.footer2{
+    width: 33%;
+}
+
+.footer3{
+    width: 33%;
+}

@@ -42,7 +42,7 @@ export default function Navigation() {
                     <NavLink className="navlink" to="/Services">SERVICES</NavLink>
                     <NavLink className="navlink" to="/Cases">CASES</NavLink>
                     <NavLink className="navlink" to="/Blog">BLOG</NavLink>
-                    <NavLink className="navlink" id="Kontakt" to="/Om">KONTAKT</NavLink>
+                    <NavLink className="navlink" id="kontakt" to="/Kontakt">KONTAKT</NavLink>
                 </div>
             </div>
         </nav>
