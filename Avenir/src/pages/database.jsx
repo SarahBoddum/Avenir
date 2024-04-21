@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import 'firebase/database';
+import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -12,7 +12,9 @@ const firebaseConfig = {
   appId: "1:628420128652:web:f843b4138482f31ff2b0a9"
 };
 
-// Initialize Firebase
-const Firebase = initializeApp(firebaseConfig);
 
-export default Firebase;
+const fireStoreApp = initializeApp(firebaseConfig);
+const database = getFirestore(fireStoreApp);
+// Export firestore database
+// It will be imported into your react app whenever it is needed
+export default database;
