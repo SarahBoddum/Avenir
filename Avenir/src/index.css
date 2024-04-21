@@ -1370,3 +1370,16 @@ p{
 .footer3{
     width: 33%;
 }
+
+.ikonboks{
+    display: flex;
+    width: 80%;
+}
+
+.ikonboks img{
+    width: 33%;
+}
+
+.infoboks{
+    width: 100%;
+}
