@@ -364,6 +364,11 @@ p{
     border-bottom-left-radius:  50% 30%;
 }
 
+.bordernone{
+    border-radius: none;
+    margin-left: 5vw;
+}
+
 /*--------------KompFire-------------*/
 .KompFire{
     width: 90%;
@@ -883,16 +888,77 @@ p{
 /*------ Booking -------*/
 
 .bookbox{
-    margin-top: 5em;
+    margin-top: 7vw;
 }
 
-.bookform{
-    width: 60%;
+.bookbox input{
+    width: 100%;
+    background-color: #201F1F;
+    border: 1px solid #fff;
+    color:#fff;
+    padding: 0.5vw 1.5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 1.3vw;
+    line-height: 1.5;
+    margin-bottom: 1vw;
 }
 
-.bookpic{
-    width: 30%;
+.todeltform input{
+    width: 22vw;
 }
+
+::placeholder{
+    color:#fff;
+}
+
+.bookbox h1{
+    font-size: 3.3vw;
+}
+
+.todeltform{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.storinput textarea{
+    height: 20vw;
+    text-align: start;
+    width: 100%;
+    background-color: #201F1F;
+    border: 1px solid #fff;
+    color:#fff;
+    padding: 0.5vw 1.5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 1.3vw;
+    line-height: 1.5;
+    margin-bottom: 1vw;
+}
+
+button{
+    background-color: #201F1F;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 1.3vw;
+    line-height: 1.5;
+    color: #FA8655;
+    text-transform: uppercase;
+    display: flex;
+}
+
+button img{
+    width: 2vw;
+    margin-left: 1vw;
+}
+
+button:hover{
+    font-size: 1.4vw;
+    transition: 0.3s ease-in-out;
+}
+
 
 /*------- Footer --------*/
 
