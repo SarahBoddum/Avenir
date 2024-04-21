@@ -20,7 +20,7 @@ const Kontakt = () => {
     try {
       // Get a reference to the Firebase database
       //const database = Firebase.firestore(); // Correct access to Firebase database
-      const newDoc = await addDoc(collection(database, "DokumentTypeNavn"), {
+      const newDoc = await addDoc(collection(database, "Booking"), {
         name,
         companyName,
         email,
