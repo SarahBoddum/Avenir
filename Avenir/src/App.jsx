@@ -11,6 +11,8 @@ import ServicePage from './pages/Services';
 import Navigation from './components/Navigation';
 import TeamPage from './pages/Team';
 import BaredygtigPage from './pages/Baredygtig';
+import { Helmet } from 'react-helmet';
+
 
 
 function App() {
@@ -18,6 +20,10 @@ function App() {
     <>
     <ScrollToTop />
      <Navigation />
+     <Helmet>
+        <title>Avenir</title>
+        <link rel="icon" type="image/png" href="/assets/Images/logoAVENIR.png" />
+      </Helmet>
      <Routes>
         <Route path="/" element={<ForsidePage />} />
         <Route path="/blog" element={<BlogPage/>} />

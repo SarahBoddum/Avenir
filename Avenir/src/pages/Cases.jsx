@@ -1,11 +1,11 @@
 import React from 'react'
 import KompNi from '../components/KompNi';
-import gronoje from '../assets/Images/soOje.jpg';
 import lyserodpil from '../assets/Images/pil.svg';
 import negleforside from '../assets/Images/NeglementetEt.jpg';
 import igen from '../assets/Images/igenCase.jpg';
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
+import walther from '../assets/Images/walther.jpg';
 
 
 const CasePage = () => {
@@ -26,7 +26,7 @@ const CasePage = () => {
 
       <KompNi  
         LRclassName="deg90"
-        LRimg={gronoje}
+        LRimg={walther}
         LVclassName="torund lysgron"
         LilleHT="orange">
             <h3>WALTHERS <span className='mobil'><br/></span>VINTAGE</h3>

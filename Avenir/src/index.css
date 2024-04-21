@@ -27,6 +27,10 @@ h1{
     line-height: 1.2;
     font-weight: lighter;
 } 
+h2{
+    font-family: "campaign-serif", sans-serif;
+    font-size: 2vw;
+}
 .friH1{
     margin-top: 10vh;
     margin-bottom: 10vh;
@@ -197,7 +201,7 @@ p{
 
 }
 .btn{
-    width: 60%;
+    width: 65%;
     padding-left: 5%;
     padding-right: 5%;
     height: 6vh;
@@ -445,6 +449,9 @@ p{
     justify-content: space-between;
     padding-bottom: 5vh;
     padding-top: 3vh;
+}
+.tombtxt p{
+    color: #201F1F;
 }
 .tombBaggrundTre{
     height: 70vh;
@@ -881,6 +888,7 @@ p{
 }
 .deg90{
     transform: rotate(-90deg);
+    
 }
 /*-------omAvenir---------*/
 .OmPage{
@@ -1126,7 +1134,7 @@ button:hover{
         width: 0;
     }
     #Mlogo{
-        width: 6%;
+        width: 10%;
         margin-right: 2%;
         margin-top: 10px;
     }
@@ -1134,6 +1142,8 @@ button:hover{
         font-family: "campaign-serif", sans-serif;
         font-size: 7vw;
         color: #ffff;
+        width: 60%;
+
     }
     #menu {
         z-index: 1;
@@ -1157,7 +1167,7 @@ button:hover{
         display: flex;
         flex-direction: column;
         justify-content: unset;
-        gap: 15%;
+        gap: 20%;
         height: 70vh;
         margin-top: 20px;
         text-align: center;
@@ -1167,6 +1177,8 @@ button:hover{
     .dropdown-content{
        margin-bottom: 4vh;
        font-size: 12pt;
+       
+       flex-direction: column;
     }
 
     /*------------forside----------------*/
@@ -1184,6 +1196,7 @@ button:hover{
         width: 90%;
         margin-left: 5%;
         text-align: left;
+        background-position-x: 90%;
     }
     #forsidetop h1{
         padding-top: 1vh;
