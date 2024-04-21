@@ -39,10 +39,10 @@ export default function Navigation() {
                         <NavLink className={"navlink"}>Mød teamet</NavLink>
                     </div>
                     </div>
-                    <NavLink className="navlink" to="/contact">SERVICES</NavLink>
-                    <NavLink className="navlink" to="/Om">CASES</NavLink>
-                    <NavLink className="navlink" to="/Om">BLOG</NavLink>
-                    <NavLink className="navlink" id="kontakt" to="/Om">KONTAKT</NavLink>
+                    <NavLink className="navlink" to="/Services">SERVICES</NavLink>
+                    <NavLink className="navlink" to="/Cases">CASES</NavLink>
+                    <NavLink className="navlink" to="/Blog">BLOG</NavLink>
+                    <NavLink className="navlink" id="kontakt" to="/Kontakt">KONTAKT</NavLink>
                 </div>
             </div>
         </nav>

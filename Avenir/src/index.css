@@ -707,3 +707,18 @@ p{
         font-size: 17vw;
     }
 }
+
+/*------ Booking -------*/
+
+.bookbox{
+    margin-top: 5em;
+    display: flex;
+}
+
+.bookform{
+    width: 60%;
+}
+
+.bookpic{
+    width: 30%;
+}
