@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
 import NeglementetPage from './pages/Neglementet';
 import BlogPage from './pages/Blog';
 import CasesPage from './pages/Cases';
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <>
+    <ScrollToTop />
      <Navigation />
      <Routes>
         <Route path="/" element={<ForsidePage />} />
