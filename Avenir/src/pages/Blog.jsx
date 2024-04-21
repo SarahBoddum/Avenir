@@ -1,6 +1,8 @@
 import React from 'react'
 import KompNi from '../components/KompNi';
-import gronoje from '../assets/Images/soOje.jpg';
+
+import lottie from '../assets/Images/video.jpg';
+import farver from '../assets/Images/farver.jpg';
 import lyserodpil from '../assets/Images/pil.svg';
 import hm from '../assets/Images/hm.jpg';
 import Footer from '../components/Footer';
@@ -12,7 +14,7 @@ const BlogPage = () => {
       <h1 className='topH1'>Blog</h1>
 
       <KompNi  LRclassName="deg180"
-        LRimg={gronoje}
+        LRimg={lottie}
         LVclassName="torund rod"
         LilleHT="rosa">
             <h3>LOTTIE FILES - EN NY MÅDE AT EKSPORTERE VIDEO, DER FYLDER MINDRE</h3>
@@ -24,7 +26,7 @@ const BlogPage = () => {
 
       <KompNi  
         LRclassName="deg90"
-        LRimg={gronoje}
+        LRimg={farver}
         LVclassName="torund orange"
         LilleHT="lysgron">
             <h3>LÆR MERE OM FARVER OG DERES ENERGIFORBRUG</h3>

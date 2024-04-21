@@ -7,6 +7,7 @@ import aoje from '../assets/Images/AnOje.jpg';
 import KompSyv from '../components/KompSyv';
 import KompTo from '../components/KompTo';
 import Footer from '../components/Footer';
+import { Link } from 'react-router-dom';
 
 const OmPage = () => {
   return (
@@ -36,7 +37,7 @@ const OmPage = () => {
         textTilAbaggKompto="VORES MISSION ER AT HJÆLPE VORES KUNDER TIL AT FORENE LÆKKERT DESIGN MED OMTANKE FOR MILJØET">
            {<div>
                 <p>Vi tager dig i hånden når du tager dine første skridt mod en hjemmeside for en bedre fremtid. En fremtid hvor vi laver æstetiske, brugervenlige og højt konverterende hjemmesider,  der også følger bæredygtigheds principperne. Hos os er intet umuligt og alting muligt, så vi står klar til at hjælpe dig, præcis hvor du er og hvor du gerne vil ende henne.</p>
-                <div className='btn'>Book et møde</div>
+                <Link className='btn' to="/Kontakt">BOOK ET MØDE</Link>
             </div>
             }
         </KompTo>

@@ -9,6 +9,7 @@ import sb from '../assets/Images/sb.webp';
 import sk from '../assets/Images/sk.jpg';
 import aogc from '../assets/Images/aogc.jpg';
 import Footer from '../components/Footer';
+import { Link } from 'react-router-dom';
 
 
 const TeamPage = () => {
@@ -27,7 +28,7 @@ const TeamPage = () => {
         </div>
         <div className='TeamdivRigth'>
           <p>Hos AVENIR skaber vi web løsninger,  som matcher jeres ønsker og behov og sammen skræddersyer vi den perfekte løsning.  Vores bæredygtigheds principper inkorporeres i processen, så vi i fællesskab tager hånd om fremtidens web løsninger. </p>
-          <div className='btn'>LÆS MERE</div>
+          <Link className='btn' to="/baredygtig">LÆS MERE</Link>
         </div>
       </div>
 
@@ -84,7 +85,7 @@ const TeamPage = () => {
            <div className='komptretxt'>
                 <h1>AVENIR teamet</h1>
                 <p>AVENIR er et ungt webbureau sammensat af fire engagerede kvinder, som deler en passion for bæredygtige løsninger inden for livsstilsbranchen og bringer en mangfoldighed af baggrunde ind i vores arbejde. Vores ekspertise spænder bredt fra mode og makeup til smykker, musik og fotografi.  Vi mødtes under studierne og har opdaget, at vores forskellige erfaringer skaber et dynamisk og kreativt arbejdsmiljø, hvor vi kan skabe unikke og innovative webløsninger for vores kunder.</p>
-                <div className='btn'>SE VORES CASES</div>
+                <Link className='btn' to="/cases">SE VORES CASES</Link>
             </div>
         </KompTre>
         <Footer></Footer>
