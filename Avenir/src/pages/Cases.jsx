@@ -2,15 +2,17 @@ import React from 'react'
 import KompNi from '../components/KompNi';
 import gronoje from '../assets/Images/soOje.jpg';
 import lyserodpil from '../assets/Images/pil.svg';
+import negleforside from '../assets/Images/NeglementetEt.jpg';
+import igen from '../assets/Images/igenCase.jpg';
 
 
 const CasePage = () => {
   return (
-    <div className='casePage'>
+    <div className='Baredygtig'>
       <h1 className='topH1'>Cases</h1>
 
       <KompNi  LRclassName="deg180"
-        LRimg={gronoje}
+        LRimg={negleforside}
         LVclassName="torund rod"
         LilleHT="rosa">
             <h3>NEGLEMENTET</h3>
@@ -34,7 +36,7 @@ const CasePage = () => {
 
       <KompNi  
         LRclassName="deg0"
-        LRimg={gronoje}
+        LRimg={igen}
         LVclassName="torund neongron"
         LilleHT="rosa">
             <h3>IGEN</h3>

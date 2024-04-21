@@ -27,6 +27,12 @@ h1{
     line-height: 1.2;
     font-weight: lighter;
 } 
+.friH1{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    font-size: 5.5vw;
+    margin-left: 5%;
+}
 h3{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
@@ -158,7 +164,18 @@ p{
     background-position-y: 30vh;
     background-position-x: 10%;
 }
-
+.blad{
+    width: 100%;
+    margin-top: 5vh;
+    height: 60vh;
+    margin-right: -5%;
+}
+.animation{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-right: -5%;
+}
 #forsidetop h1{
     font-size: 15vw;   
     color:#FA8655;
@@ -215,9 +232,13 @@ p{
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 30vh;  
-    margin-bottom: 10vh;  
+    margin-bottom: 10vh;
+    flex-direction: row-reverse;
+    justify-content: space-between;  
 }
-
+.row{
+    flex-direction: row;
+}
 .rosa{
     background-color: #EDCBE0;
 }
@@ -247,9 +268,6 @@ p{
     width: 35vw;
     height: 35vw;
     display: flex;
-}
-.reversrow{
-    flex-direction: row-reverse;
 }
 .aflang{
     height: 100%;
@@ -326,7 +344,7 @@ p{
 }
 .komptretxt h1{
     padding-left: 5%;
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px rgb(116, 100, 100);
     padding-bottom: 2vh;
     padding-right: 10%;
     margin-bottom: 2vh;
@@ -362,6 +380,35 @@ p{
     border-top-left-radius: 10vw;
     border-top-right-radius: 10vw;
 }
+.tombBaggrundEt{
+    background-size: 110%;
+    width: 20vw;
+    height: 80vh;
+    background-color: #EDCBE0;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    border-top-left-radius: 10vw;
+    border-top-right-radius: 10vw;
+}
+.tombBaggrundTo{
+    background-size: 110%;
+    width: 20vw;
+    height: 65vh;
+    margin-top: 15vh;
+    background-color: #ADFD82;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    border-top-left-radius: 10vw;
+    border-top-right-radius: 10vw;
+}
+.tombBaggrundTre{
+    height: 70vh;
+    margin-top: 10vh;
+    background-color: #D2F69E;
+    background-repeat: no-repeat;
+    background-size: 119%;
+    background-position-y: bottom;
+}
 .tombtxt{
     height: 100%;
     display: flex;
@@ -369,6 +416,21 @@ p{
     justify-content: space-between;
     padding-bottom: 5vh;
     padding-top: 3vh;
+}
+.tombBaggrundTre{
+    height: 70vh;
+    margin-top: 10vh;
+    background-color: #D2F69E;
+    width: 20vw;
+    border-top-left-radius: 10vw;
+    border-top-right-radius: 10vw;
+}
+.tombBaggrundFire{
+    background-color: #FA8655;
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-position-y: bottom;
+    background-position-x: -7vh;
 }
 .tombtxt h1{
     margin-left: 6%;
@@ -396,7 +458,17 @@ p{
 .tsFire{
     background-color: #FA8655;
 }
-
+.teamKompfire{
+    text-align: center;
+    margin-top: 7vh;
+}
+.teamKompfire h3{
+    color: #201F1F;
+    font-weight:300; 
+}
+.teamKompfire p{
+    color: #201F1F;
+}
 /*-----------KOMPFEM----------------*/
 
 .storRamme{
@@ -438,6 +510,9 @@ p{
     border-bottom-left-radius: 50%;
     border: solid 1px #707070;
 }
+.SRmidtlille{
+    width: 33.33%;
+}
 .SRmidtL{
     width: 33.33%;
     border-bottom-left-radius: 50%;
@@ -460,7 +535,9 @@ p{
 .storH1{
     font-size: 5vw;
 }
-
+.flip{
+    flex-direction: row-reverse;
+}
 /*-----------------KOMP6----------------*/
 .KompSeks{
     width: 90%;
@@ -473,15 +550,43 @@ p{
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 20vh;
+   
+}
+.OmbilledeR{
+    margin-top: -27vh;
+    margin-bottom: -37vh;
+    border-top-left-radius: 30%55%;
+    border-bottom-right-radius: 30%50%;
+    width: 90%;
+    margin-left: 5%;
+    background-size: 60%;
+}
+.OmBillede{
+    border-top-left-radius: 30%55%;
+    border-bottom-right-radius: 30%50%;
+    object-fit: cover;
+    width: 100%;
+    height: 70vh;   
+    object-position: 0px 0px;
+}
+
+.omteam{
+    width: 60%;
+    object-fit: cover;
+    margin-left: 20%;
+    object-position: bottom;
 }
 .gralogoStj{
     width: 25%;
+    z-index: 1;
 }
 .KompSeks h1{
     color: #FA8655;
-    font-size: 10vw;
+    font-size: 12vw;
     text-align: right;
+    z-index: 1;
 }
+
 /*-----------KompSyv----------*/
 .KompSyv{
     width: 90%;
@@ -612,7 +717,9 @@ p{
     border-bottom-right-radius: 100%;
     background-color: #FE4F32;
 }
-
+.colorunset{
+    background-color: unset;
+}
 /*-------kompni-------------*/
 .KompNi{
     width: 90%;
@@ -718,7 +825,7 @@ p{
 }
 /*----------------cases-------------*/
 .casePage{
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
 .topH1{
     margin-left: 5%;
@@ -728,16 +835,41 @@ p{
 .deg90{
     transform: rotate(-90deg);
 }
-
-
-.blad{
-    width: 80%;
-    margin-top: 10vh;
-    height: 60vh;
-    background-color: #ADFD82;
-    border-top-left-radius: 25%;
-    border-bottom-right-radius: 25%;
+/*-------omAvenir---------*/
+.OmPage{
+    margin-top: 15vh;
+}
+/*---------Baredygtig----------*/
+.Baredygtig{
+    margin-top: 20vh;
+}
+/*-------------TEAM PAGE--------*/
+.Teamdiv{
+    width: 90%;
     margin-left: 5%;
+    display: flex;
+    margin-bottom: 20vh;
+    padding-top: 10vh;
+    justify-content: space-between;
+}
+.TeamdivLeft{
+    width: 47%;
+}
+.TeamdivLeft h1{
+    font-size: 5.5vw;
+}
+.TeamdivRigth{
+    width: 47%;
+    padding-top: 3vh;
+}
+.TeamdivRigth p{
+    margin-bottom: 3vh;
+}
+.blad{
+    width: 100%;
+    margin-top: 5vh;
+    height: 60vh;
+
 }
 .h1-p{
     width: 55%; 
@@ -907,11 +1039,10 @@ p{
     .pil{
         margin-top: -0.6vh;
     }
-    .reversrow{
-        flex-direction: column-reverse;
-    }
+    
     .KompEt{
         margin-top: 10vh;
+        flex-direction: column-reverse;
     }
     .figurramme{
         width: 90vw;
@@ -926,6 +1057,9 @@ p{
     .h1-p{
         width: 90%;
         margin-bottom: 5vh;
+    }
+    .row{
+        flex-direction: column;
     }
     
     /*-------------KOMP TO-------------*/
@@ -977,6 +1111,14 @@ p{
         height: 85vh;
         margin-top: 10vh;
     }
+    .tombBaggrundEt,
+    .tombBaggrundTre,
+    .tombBaggrundTo{
+        width: 100%;
+        border-radius: 45vw;
+        height: 85vh;
+        margin-top: 10vh;
+    }
     .tombtxt{
         padding-bottom: 10vh;
     }
@@ -1009,20 +1151,36 @@ p{
     .gralogoStj{
         width: 55%;
         margin-top: -7vh;
+        margin-bottom: 5vh;
     }
     .KompSeksB{
         width: 90%;
         margin-left: 5%;
-        height: 70vh;
-        background-size: 90%;
-        background-repeat: no-repeat;
-        background-position-x: 40%;
+        height: 80vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
-    .omh1 h1{
-        font-size: 20vw;
+    .OmbilledeR{
+        border-top-left-radius: 50% 30%;
+        border-bottom-right-radius: 50% 30%;
+        margin-bottom: -20vh;
+        margin-top: -15vh;
+        height: 70vh;
+    }
+    .OmBillede{
+        border-top-left-radius: 50% 30%;
+        border-bottom-right-radius: 50% 30%;
+        height: 70vh;
+        margin-top: 2vh;
+        object-position: 45% 50%;
+    }
+    .objPos{
+        object-position: 70%;
+    }
+    .KompSeks h1{
+        font-size: 22vw;
+        margin-top: 6vh;
     }
     /*------------Komp7---------_-----*/
     .KompSyv{
@@ -1140,7 +1298,7 @@ p{
     .storH1{
         font-size: 11vw;
     }
-   /*-------------cese--------*/
+   /*-------------case--------*/
    .casePage{
     margin-top: 15vh;
    }
@@ -1160,4 +1318,21 @@ p{
     width: 90vw;
     height: 90vw;
    }
+   /*------------------teampage-------*/
+   .Teamdiv{
+    flex-direction: column;
+    padding-top: 0vh;
+    margin-top: -5vh;
+   }
+   .TeamdivRigth{
+    width: 100%;
+   }
+   .TeamdivLeft{
+    width: 100%;
+   }
+   .TeamdivLeft h1{
+    font-size: 10vw;
+    margin-bottom: 2vh;
+   }
+
 }

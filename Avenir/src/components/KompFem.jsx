@@ -2,7 +2,7 @@ import React from 'react'
 
 const KompFem = (props) => {
     const content = props.children;
-    const{SRmidtclassName, SRimg} = props; 
+    const{SRlilleflip, SRmidtclassName, SRimg} = props; 
   return (
     <div className='KompTre'>
         <div className='storRamme'>
@@ -12,7 +12,7 @@ const KompFem = (props) => {
                 <div className='rundVT neongron'></div>
             </div>
             <div className={`SRmidt ${SRmidtclassName}`}>
-                <div className='SRmidtL orange'></div>
+                <div className={`SRmidtlille ${SRlilleflip}`}></div>
                 <img src={SRimg}  alt="Aflang billede" className='SRimg' />
             </div>
             <div className='SR'>

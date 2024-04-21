@@ -1,16 +1,18 @@
 import React from 'react';
 import KompFem from '../components/KompFem';
-import gronoje from '../assets/Images/soOje.jpg';
 import pil from '../assets/Images/pil.svg';
 import KompEt from '../components/KompEt';
 import KompOtte from '../components/KompOtte';
-import gronoje from '../assets/Images/Servicetop.jpg';
+import servicetop from '../assets/Images/Servicetop.jpg';
+import serviceto from '../assets/Images/service2.jpg';
+import picknmix from '../assets/Images/pickmix.jpg';
 
 const ServicesPage = () => {
   return (
     <div className='Service'>
         <KompFem
-          SRimg={gronoje}>
+          SRlilleflip="SRmidtL orange"
+          SRimg={servicetop}>
               <div>
                   <h1 className='storH1'>Services</h1>
                   <p>Som en del af vores services inkorporerer vi vores bæredygtigsheds principper i vores web løsninger.  Vi imødekommer dine behov omend det er en af vores pakkeløsninger - eller vores Pick’n’Mix løsning. </p>
@@ -26,7 +28,7 @@ const ServicesPage = () => {
               </div>
         </KompFem>
        
-        <KompEt aflangSrc={gronoje}>
+        <KompEt aflangSrc={serviceto}>
             
             <h1 className='storH1'>Pakkeløsninger</h1>
             <p>Hos Avenir tilbyder vi flere forskellige pakkeløsninger, alt efter hvad du har brug for til din hjemmeside. Pakkerne er baseret på, hvor mange ændringer du ønsker, vi skal lave for at forbedre din hjemmeside, så du kan få det optimale ud af det du allerede har. Og har du ikke en eksisterende hjemmeside, kan vi også opbygge den og din visuelle identitet helt fra bunden sammen med dig</p>
@@ -164,7 +166,8 @@ const ServicesPage = () => {
               </p>
             </div>
         </div>
-        <KompEt aflangSrc={gronoje}>
+        <KompEt aflangSrc={picknmix}
+          className="reversrow">
             
             <h1>Pick'n'Mix</h1>
             <p>Har du et helt specifikt ønske i tankerne, du ikke finder ovenfor, har du her mulighed for at skræddersy din helt egen løsning ud fra DINE ønsker og behov. Den ultimative kreative frihed for dig, der drømmer om noget helt særligt.</p>

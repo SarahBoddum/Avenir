@@ -5,7 +5,7 @@ const KompFire = (props) => {
     const content = props.children;
 
   return (
-    <div className={`tombBaggrund ${tombclassName}`} style={{tombImg: `url(${tombImg})`}}>
+    <div className={`tombBaggrund ${tombclassName}`} style={{backgroundImage: `url(${tombImg})`}}>
         {content}
     </div>
   )

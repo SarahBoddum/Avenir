@@ -2,20 +2,21 @@ import React from 'react'
 import KompNi from '../components/KompNi';
 import gronoje from '../assets/Images/soOje.jpg';
 import lyserodpil from '../assets/Images/pil.svg';
+import hm from '../assets/Images/hm.jpg';
 
 
 const BlogPage = () => {
   return (
-    <div className='casePage'>
-      <h1 className='topH1'>Cases</h1>
+    <div className='Baredygtig'>
+      <h1 className='topH1'>Blog</h1>
 
       <KompNi  LRclassName="deg180"
         LRimg={gronoje}
         LVclassName="torund rod"
         LilleHT="rosa">
-            <h3>NEGLEMENTET</h3>
+            <h3>LOTTIE FILES - EN NY MÅDE AT EKSPORTERE VIDEO, DER FYLDER MINDRE</h3>
             <div className='casetext'>
-                <p><span classname="regular">TIDY UP</span> 12/04/2024</p>
+                <p><span classname="regular">VIDEO</span> 12/04/2024</p>
                 <img src={lyserodpil} alt="lyserød pil" className='lyserodpil'></img>
             </div>
       </KompNi>
@@ -25,21 +26,21 @@ const BlogPage = () => {
         LRimg={gronoje}
         LVclassName="torund orange"
         LilleHT="lysgron">
-            <h3>WALTHERS <span className='mobil'><br/></span>VINTAGE</h3>
+            <h3>LÆR MERE OM FARVER OG DERES ENERGIFORBRUG</h3>
             <div className='casetext'>
-                <p><span classname="regular">PICTURE PERFECT</span> 12/04/2024</p>
+                <p><span classname="regular">FARVER</span> 12/04/2024</p>
                 <img src={lyserodpil} alt="lyserød pil" className='lyserodpil'></img>
             </div>
       </KompNi>
 
       <KompNi  
         LRclassName="deg0"
-        LRimg={gronoje}
+        LRimg={hm}
         LVclassName="torund neongron"
         LilleHT="rosa">
-            <h3>IGEN</h3>
+            <h3>GREEN WASHING: BLIVER DU SNYDT AF LØFTER OM BÆREDYGTIGHED?</h3>
             <div className='casetext'>
-                <p><span classname="regular">OPTIMZE</span> 12/04/2024</p>
+                <p><span classname="regular">BÆREDYGTIGHED</span> 12/04/2024</p>
                 <img src={lyserodpil} alt="lyserød pil" className='lyserodpil'></img>
             </div>
       </KompNi>

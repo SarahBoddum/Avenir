@@ -4,11 +4,16 @@ import logo from '../assets/Images/gralogo.png';
 import KompEt from '../components/KompEt';
 import KompTo from '../components/KompTo';
 import gronoje from '../assets/Images/soOje.jpg';
+import KompTre from '../components/KompTre';
 import KompFire from '../components/KompFire';
 import KompFem from '../components/KompFem';
-import aogs from '../assets/Images/aogs.jpg'
-import KompTre from '../components/KompTre';
-import animation from '../assets/Images/animationAvenir.mp4'
+import KompSeks from '../components/KompSeks';
+import KompSyv from '../components/KompSyv';
+import KompOtte from '../components/KompOtte';
+import KompNi from '../components/KompNi';
+import lyserodpil from '../assets/Images/pil.svg';
+
+
 
 
 export const Forside = () => {
@@ -16,9 +21,7 @@ export const Forside = () => {
   return (
     <div>
         <div id='forsidetop'>
-            <video className='blad' muted autoPlay>
-                <source src={animation} className='animation'></source>
-            </video>
+            <div className='blad'></div>
             <div id='ramme' style={{backgroundImage: `url(${logo})`}}>
                 <h1>AVENIR</h1>
                 <h3 className='laptop'>VI DESIGNER FREMTIDENS <br />DIGITALE WEB <br />LØSNINGER</h3>
@@ -36,14 +39,12 @@ export const Forside = () => {
             
         </div>
         <KompEt
-            className="reverserow"
             aflangSrc={gronoje}>
             
             <h1>Vi tager hånd om <br/><span className="rosatxt">fremtidens<br/></span>webløsninger</h1>
             <p>AVENIR er et ungt bureau og vi har fremtiden foran os. Sammen skaber vi løsninger, der perfektionerer din digitale tilstedeværelse. Vi sætter os grundigt ind i din virksomheds udfordringer og potentiale, så vi sammen kan finde og udvikle den løsning, der skaber den bedste fremtid for din virksomhed.</p>
         </KompEt>
-        <KompTo
-        textTilAbaggKompto="HVIS INTERNETTET VAR ET LAND, VILLE DET VÆRE DET 6. MEST FORURENENDE LAND PÅ VERDENSPLAN">
+        <KompTo>
             {<div>
                 <p>Vi tager dig i hånden når du tager dine første skridt mod en hjemmeside for en bedre fremtid. En fremtid hvor vi laver æstetiske, brugervenlige og højt konverterende hjemmesider,  der også følger bæredygtigheds principperne. Hos os er intet umuligt og alting muligt, så vi står klar til at hjælpe dig, præcis hvor du er og hvor du gerne vil ende henne.</p>
                 <div className='btn'>Book et møde</div>
@@ -51,6 +52,16 @@ export const Forside = () => {
             }
         </KompTo>
 
+        <KompTre
+            treimgSrc={aogs}
+            treimgClass="bladimg"
+            >
+           <div className='komptretxt'>
+                <h1>AVENIR teamet</h1>
+                <p>AVENIR er et ungt webbureau sammensat af fire engagerede kvinder, som deler en passion for bæredygtige løsninger inden for livsstilsbranchen og bringer en mangfoldighed af baggrunde ind i vores arbejde. Vores ekspertise spænder bredt fra mode og makeup til smykker, musik og fotografi.  Vi mødtes under studierne og har opdaget, at vores forskellige erfaringer skaber et dynamisk og kreativt arbejdsmiljø, hvor vi kan skabe unikke og innovative webløsninger for vores kunder.</p>
+                <div className='btn'>SE VORES CASES</div>
+            </div>
+        </KompTre>
         <div className='KompFire'>
             <KompFire
             tombclassName="tombshapeEt">
@@ -100,11 +111,10 @@ export const Forside = () => {
         </div>
 
         <KompFem
-        SRlilleflip="SRmidtL orange"
         SRimg={gronoje}>
             <div>
                 <h1 className='storH1'>Services</h1>
-                <p>Som en del af vores services inkorporerer vi vores bæredygtigsheds principper i vores web løsninger.  Vi imødekommer dine behov omend det er en af vores pakkeløsninger - eller vores Pick’n’Mix løsning. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <div className="btndiv leftalign">
                     <div className="btn storbtn">
                         PAKKELØSNINGER
@@ -116,17 +126,41 @@ export const Forside = () => {
                 </div>
             </div>
         </KompFem>
-
-        <KompTre
-            treimgSrc={aogs}
-            treimgClass="bladimg"
-            >
-           <div className='komptretxt'>
-                <h1>AVENIR teamet</h1>
-                <p>AVENIR er et ungt webbureau sammensat af fire engagerede kvinder, som deler en passion for bæredygtige løsninger inden for livsstilsbranchen og bringer en mangfoldighed af baggrunde ind i vores arbejde. Vores ekspertise spænder bredt fra mode og makeup til smykker, musik og fotografi.  Vi mødtes under studierne og har opdaget, at vores forskellige erfaringer skaber et dynamisk og kreativt arbejdsmiljø, hvor vi kan skabe unikke og innovative webløsninger for vores kunder.</p>
-                <div className='btn'>SE VORES CASES</div>
+        <KompSeks
+            KompSeksclassName='laptop'
+           >
+            <h1>Om<br />AVENIR</h1>
+        </KompSeks>
+        <KompSyv
+            LRimg={gronoje}
+            LilleH='rosa'
+            LVclassName='orange'>
+            <h1>Vi ønsker at skabe en fremtid hvor <span id='Tlysgron'>bæredygtigt webdesign</span> er for de mange.</h1>
+            <p>Med æstetikken og den gode brugeroplevelse i højsædet, er vores vision at vise vejen mod en mere bevidst digital tilstedeværelse, der kan inspirere og drive branchen mod en bedre fremtid.</p>
+        </KompSyv>
+        <KompOtte
+            CTVclassName=""
+            CTHclassName=""
+            CBVclassNames=""
+            CBHclassName="">
+                <h1>.01</h1>
+                <h2>Brugerne skal effektivt kunne finde frem til deres ønsker/løsninger</h2>
+                <p>Desto mere data der anvendes, desto mere elektricitet strømmer der gennem kablerne, og brug af elektricitet resulterer i udledning af CO2. For at mindske mængden af data er det oplagt at overveje længden af brugerrejsen. Hvis en bruger i øjeblikket skal besøge fire undersider for at fuldføre brugerrejsen, kan en omstrukturering af rejsen til kun to undersider markant reducere CO2-aftrykket af deres besøg på sitet. Samtidig forbedrer dette også brugeroplevelsen ved at gøre vejen til målet hurtigere og mere direkte med færre klik.</p>
+            
+        </KompOtte>
+        <KompNi
+        LRclassName="deg180"
+        LRimg={gronoje}
+        LVclassName="torund rod"
+        LilleHT="rosa">
+            <h3>NEGLEMENTET</h3>
+            <div className='casetext'>
+                <p><span classname="regular">TIDY UP</span> 12/04/2024</p>
+                <img src={lyserodpil} alt="lyserød pil" className='lyserodpil'></img>
             </div>
-        </KompTre>
+        </KompNi>
+      
+        
 
     </div>
   )

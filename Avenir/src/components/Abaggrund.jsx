@@ -1,11 +1,11 @@
 import React from 'react'
 import logobagg from '../assets/Images/logoOgbagg.png'
 
-export const Abaggrund = (props) => {
-    const content = props.children
+export const Abaggrund = ({text}) => {
+   
   return (
     <div className='Abaggrund' style={{backgroundImage: `url(${logobagg})`}}>
-        {content}
+        <h3>{text}</h3>
     </div>
   )
 }
