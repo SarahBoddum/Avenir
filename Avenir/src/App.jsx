@@ -12,6 +12,7 @@ import Navigation from './components/Navigation';
 import TeamPage from './pages/Team';
 import BaredygtigPage from './pages/Baredygtig';
 import { Helmet } from 'react-helmet';
+import Fire04Page from './components/Fire04';
 
 
 
@@ -33,7 +34,8 @@ function App() {
         <Route path="/baredygtig" element={<BaredygtigPage/>} />
         <Route path="/team" element={<TeamPage/>} />
         <Route path="/services" element={<ServicePage/>} />
-        <Route path="/neglementet" element={<NeglementetPage/>} />
+        <Route path="/404" element={<Fire04Page/>} />
+        <Route path="/neglementet" element={<NeglementetPage/>} />    
         <Route path="*" element={<Navigate to="/"/>} />
      </Routes>
     </>

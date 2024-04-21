@@ -30,10 +30,10 @@ const CasePage = () => {
         LVclassName="torund lysgron"
         LilleHT="orange">
             <h3>WALTHERS <span className='mobil'><br/></span>VINTAGE</h3>
-            <div className='casetext'>
+            <Link className='casetext' to="/404">
                 <p><span classname="regular">PICTURE PERFECT</span> 12/04/2024</p>
                 <img src={lyserodpil} alt="lyserød pil" className='lyserodpil'></img>
-            </div>
+            </Link>
       </KompNi>
 
       <KompNi  
@@ -42,10 +42,10 @@ const CasePage = () => {
         LVclassName="torund neongron"
         LilleHT="rosa">
             <h3>IGEN</h3>
-            <div className='casetext'>
+            <Link className='casetext' to="/404">
                 <p><span classname="regular">OPTIMZE</span> 12/04/2024</p>
                 <img src={lyserodpil} alt="lyserød pil" className='lyserodpil'></img>
-            </div>
+            </Link>
       </KompNi>
       <div className='serviceStreg'></div>
       <Footer></Footer>
