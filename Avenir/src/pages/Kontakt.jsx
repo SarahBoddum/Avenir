@@ -114,10 +114,11 @@ const Kontakt = () => {
         </div>
         <button type="submit">Send Booking</button>
       </form>
-        </KompTre>
+      </KompTre>
+      <Footer></Footer>
       
      
-      <Footer></Footer>
+
     </div>
   )
 }
