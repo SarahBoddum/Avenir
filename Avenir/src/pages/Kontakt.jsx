@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { collection, addDoc } from "firebase/firestore";
 import database from './database'; // Import the initialized Firebase app from firebase.js
+import KompTre from '../components/KompTre';
+import coga from '../assets/Images/coga.jpg';
 
 
 
@@ -50,7 +52,11 @@ const Kontakt = () => {
 
   return (
     <div className='bookbox'>
-      <h1>Book et møde hos AVENIR</h1>
+        <KompTre
+            treimgSrc={coga}
+            treimgClass="bladimg"
+            >
+          <h1>Book et møde hos AVENIR</h1>
       <form onSubmit={handleSubmit} className='bookform'>
         <div>
           <label>Navn:</label>
@@ -107,6 +113,8 @@ const Kontakt = () => {
         </div>
         <button type="submit">Send Booking</button>
       </form>
+        </KompTre>
+      
      
     </div>
   )
