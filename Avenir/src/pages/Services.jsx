@@ -6,6 +6,7 @@ import KompOtte from '../components/KompOtte';
 import servicetop from '../assets/Images/Servicetop.jpg';
 import serviceto from '../assets/Images/service2.jpg';
 import picknmix from '../assets/Images/pickmix.jpg';
+import Footer from '../components/Footer';
 
 const ServicesPage = () => {
   return (
@@ -226,6 +227,7 @@ const ServicesPage = () => {
                 <p>Når du ser et site, tænker du ikke nødvendigvis over hvor meget kode der ligger bagved. Men genbrug af kode, oprydning af kode og generelt bruge de rigtige kodesprog har også en betydning for hvor meget energi og data der bliver brugt på din hjemmeside. </p>
         </KompOtte>
         <div className='serviceStreg'></div>
+        <Footer></Footer>
     </div>
   )
 }

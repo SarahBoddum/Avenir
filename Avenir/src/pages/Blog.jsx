@@ -3,6 +3,7 @@ import KompNi from '../components/KompNi';
 import gronoje from '../assets/Images/soOje.jpg';
 import lyserodpil from '../assets/Images/pil.svg';
 import hm from '../assets/Images/hm.jpg';
+import Footer from '../components/Footer';
 
 
 const BlogPage = () => {
@@ -45,6 +46,7 @@ const BlogPage = () => {
             </div>
       </KompNi>
       <div className='serviceStreg'></div>
+      <Footer></Footer>
     </div>
   )
 }

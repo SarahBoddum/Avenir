@@ -2,6 +2,7 @@ import React from 'react';
 import KompFem from '../components/KompFem';
 import aoje from '../assets/Images/AnOje.jpg';
 import KompOtte from '../components/KompOtte';
+import Footer from '../components/Footer';
 
 export const BaredygtigPage = () => {
   return (
@@ -95,6 +96,7 @@ anmodninger, og fontene er nærmest gratis
                 <p>En god kode er også afgørende for at mindske CO2 udledningen på et website. En kortere og mere præcis kode, skåner serveren for at indlæse unødvendigt og overflødigt data. Det vil resultere i et lavere strømforbrug, hvilket bidrager til et mere bæredygtigt webdesign. Det man kan gøre, er at strømline filer og undgå duplikation af funktioner, reducere antallet og kompleksiteten af forespørgsler der skal til for at levere en bestemt funktionalitet, at kode websites uden plugins, der indeholder funktioner, som er unødvendige. </p>
             
         </KompOtte>
+        <Footer></Footer>
     </div>
   )
 }

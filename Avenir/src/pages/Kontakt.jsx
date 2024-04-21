@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { collection, addDoc } from "firebase/firestore";
 import database from './database'; // Import the initialized Firebase app from firebase.js
+import Footer from '../components/Footer';
 
 
 
@@ -107,7 +108,7 @@ const Kontakt = () => {
         </div>
         <button type="submit">Send Booking</button>
       </form>
-     
+      <Footer></Footer>
     </div>
   )
 }

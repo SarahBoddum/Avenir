@@ -4,6 +4,7 @@ import gronoje from '../assets/Images/soOje.jpg';
 import lyserodpil from '../assets/Images/pil.svg';
 import negleforside from '../assets/Images/NeglementetEt.jpg';
 import igen from '../assets/Images/igenCase.jpg';
+import Footer from '../components/Footer';
 
 
 const CasePage = () => {
@@ -46,6 +47,7 @@ const CasePage = () => {
             </div>
       </KompNi>
       <div className='serviceStreg'></div>
+      <Footer></Footer>
     </div>
   )
 }
