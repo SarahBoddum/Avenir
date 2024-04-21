@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import Firebase from './firebase'; // Import the initialized Firebase app from firebase.js
-import 'firebase/database';
+import { collection, addDoc } from "firebase/firestore";
+import database from './database'; // Import the initialized Firebase app from firebase.js
+
 
 
 const Kontakt = () => {
@@ -18,10 +19,8 @@ const Kontakt = () => {
 
     try {
       // Get a reference to the Firebase database
-      const database = Firebase.firestore(); // Correct access to Firebase database
-
-      // Push booking data to Firebase database
-      await database.ref('bookings').push({
+      //const database = Firebase.firestore(); // Correct access to Firebase database
+      const newDoc = await addDoc(collection(database, "DokumentTypeNavn"), {
         name,
         companyName,
         email,
