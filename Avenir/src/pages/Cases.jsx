@@ -5,6 +5,7 @@ import lyserodpil from '../assets/Images/pil.svg';
 import negleforside from '../assets/Images/NeglementetEt.jpg';
 import igen from '../assets/Images/igenCase.jpg';
 import Footer from '../components/Footer';
+import { Link } from 'react-router-dom';
 
 
 const CasePage = () => {
@@ -17,10 +18,10 @@ const CasePage = () => {
         LVclassName="torund rod"
         LilleHT="rosa">
             <h3>NEGLEMENTET</h3>
-            <div className='casetext'>
+            <Link className='casetext' to="/neglementet">
                 <p><span classname="regular">TIDY UP</span> 12/04/2024</p>
                 <img src={lyserodpil} alt="lyserød pil" className='lyserodpil'></img>
-            </div>
+            </Link>
       </KompNi>
 
       <KompNi  

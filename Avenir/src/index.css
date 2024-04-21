@@ -160,7 +160,7 @@ p{
     height: 70vh;
     text-align: right;
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 30%;
     background-position-y: 30vh;
     background-position-x: 10%;
 }
@@ -194,7 +194,9 @@ p{
 
 }
 .btn{
-    width: 50%;
+    width: 60%;
+    padding-left: 5%;
+    padding-right: 5%;
     height: 6vh;
     border: solid 2px white;
     font-size: 1.5vw;
@@ -203,6 +205,13 @@ p{
     color: white;
     text-align: center;
     padding-top:1.25vh;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #D2F69E;
+    color: #201F1F;
+    transition: 0.3s ease-in-out;
+    border:#201F1F;
 }
 .btnpil{
     font-size: 1.5vw;
@@ -212,8 +221,12 @@ p{
     display: flex;
     padding-top: 1.25vh;
     padding-left: 7%;
+    text-decoration: none;
 }
-
+.btnpil:hover{
+    font-size: 1.6vw;
+    transition: 0.3s ease-in-out;
+}
 .pil{
     width: 15%;
     margin-top: -2vh;
@@ -669,6 +682,20 @@ p{
     display: flex;
     justify-content: space-between;
 }
+.negleflex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.negleH2{
+    width: 25%;
+    color: white;
+    font-weight: lighter;
+    font-size: 1.7vw;
+}
+.neglep{
+    width: 70%;
+}
 .flextext h1{
     width: 15%;
     font-size: 15vw;
@@ -839,6 +866,10 @@ p{
 .casePage{
     margin-top: 10vh;
 }
+.casetext{
+    text-decoration: none;
+}
+
 .topH1{
     margin-left: 5%;
     font-size: 6vw;
@@ -1348,6 +1379,17 @@ button:hover{
         width: 100%;
         margin-left: 0%;
         margin-bottom: 2vh;
+    }
+    .negleflex{
+        flex-direction: column;
+    }
+    .negleH2{
+        width: 100%;
+        font-size: 8vw;
+        margin-bottom: 4vh;
+    }
+    .neglep{
+        width: 100%;
     }
     .flextext h1{
         font-size: 50vw;

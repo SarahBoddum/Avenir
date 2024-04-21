@@ -10,6 +10,7 @@ import aogs from '../assets/Images/aogs.jpg'
 import KompTre from '../components/KompTre';
 import animation from '../assets/Images/animationAvenir.mp4'
 import Footer from '../components/Footer';
+import { Link } from 'react-router-dom';
 
 
 
@@ -26,13 +27,13 @@ export const Forside = () => {
                 <h3 className='laptop'>VI DESIGNER FREMTIDENS <br />DIGITALE WEB <br />LØSNINGER</h3>
                 <h3 className='mobil'>VI DESIGNER <br />FREMTIDENS DIGITALE <br />WEBLØSNINGER</h3>
                 <div className="btndiv">
-                    <div className="btn">
+                    <Link className="btn" to="/Services">
                         VORES SERVICES
-                    </div>                
-                    <div className='btnpil'>
+                    </Link>                
+                    <Link className='btnpil' to="/Kontakt">
                         BOOK ET MØDE
                         <img className="pil" src={pil}></img>
-                    </div>
+                    </Link>
                 </div>
             </div>
             
@@ -48,7 +49,7 @@ export const Forside = () => {
         textTilAbaggKompto="HVIS INTERNETTET VAR ET LAND, VILLE DET VÆRE DET 6. MEST FORURENENDE LAND PÅ VERDENSPLAN">
             {<div>
                 <p>Vi tager dig i hånden når du tager dine første skridt mod en hjemmeside for en bedre fremtid. En fremtid hvor vi laver æstetiske, brugervenlige og højt konverterende hjemmesider,  der også følger bæredygtigheds principperne. Hos os er intet umuligt og alting muligt, så vi står klar til at hjælpe dig, præcis hvor du er og hvor du gerne vil ende henne.</p>
-                <div className='btn'>Book et møde</div>
+                <Link className='btn' to="/Kontakt">BOOK ET MØDE</Link>
             </div>
             }
         </KompTo>
@@ -108,13 +109,13 @@ export const Forside = () => {
                 <h1 className='storH1'>Services</h1>
                 <p>Som en del af vores services inkorporerer vi vores bæredygtigsheds principper i vores web løsninger.  Vi imødekommer dine behov omend det er en af vores pakkeløsninger - eller vores Pick’n’Mix løsning. </p>
                 <div className="btndiv leftalign">
-                    <div className="btn storbtn">
+                    <Link className="btn storbtn" to="/Services">
                         PAKKELØSNINGER
-                    </div>                
-                    <div className='btnpil'>
+                    </Link>                
+                    <Link className='btnpil' to="/Services#picknmix">
                         PICK'N'MIX
                         <img className="pil" src={pil}></img>
-                    </div>
+                    </Link>
                 </div>
             </div>
         </KompFem>
@@ -126,7 +127,7 @@ export const Forside = () => {
            <div className='komptretxt'>
                 <h1>AVENIR teamet</h1>
                 <p>AVENIR er et ungt webbureau sammensat af fire engagerede kvinder, som deler en passion for bæredygtige løsninger inden for livsstilsbranchen og bringer en mangfoldighed af baggrunde ind i vores arbejde. Vores ekspertise spænder bredt fra mode og makeup til smykker, musik og fotografi.  Vi mødtes under studierne og har opdaget, at vores forskellige erfaringer skaber et dynamisk og kreativt arbejdsmiljø, hvor vi kan skabe unikke og innovative webløsninger for vores kunder.</p>
-                <div className='btn'>SE VORES CASES</div>
+                <Link className='btn' to="/cases">SE VORES CASES</Link>
             </div>
         </KompTre>
 

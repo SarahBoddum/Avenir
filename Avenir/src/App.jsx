@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
-
+import NeglementetPage from './pages/Neglementet';
 import BlogPage from './pages/Blog';
 import CasesPage from './pages/Cases';
 import ForsidePage from './pages/Forside';
@@ -25,6 +25,7 @@ function App() {
         <Route path="/baredygtig" element={<BaredygtigPage/>} />
         <Route path="/team" element={<TeamPage/>} />
         <Route path="/services" element={<ServicePage/>} />
+        <Route path="/neglementet" element={<NeglementetPage/>} />
         <Route path="*" element={<Navigate to="/"/>} />
      </Routes>
     </>

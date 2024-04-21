@@ -7,6 +7,7 @@ import servicetop from '../assets/Images/Servicetop.jpg';
 import serviceto from '../assets/Images/service2.jpg';
 import picknmix from '../assets/Images/pickmix.jpg';
 import Footer from '../components/Footer';
+import { Link } from 'react-router-dom';
 
 const ServicesPage = () => {
   return (
@@ -18,13 +19,13 @@ const ServicesPage = () => {
                   <h1 className='storH1'>Services</h1>
                   <p>Som en del af vores services inkorporerer vi vores bæredygtigsheds principper i vores web løsninger.  Vi imødekommer dine behov omend det er en af vores pakkeløsninger - eller vores Pick’n’Mix løsning. </p>
                   <div className="btndiv leftalign">
-                      <div className="btn storbtn">
+                      <Link className="btn storbtn">
                           PAKKELØSNINGER
-                      </div>                
-                      <div className='btnpil'>
+                      </Link>                
+                      <Link className='btnpil'>
                           PICK'N'MIX
-                          <img className="pil" src={pil}></img>
-                      </div>
+                          <img className="pil" src={pil} to="/services#picknmix"></img>
+                      </Link>
                   </div>
               </div>
         </KompFem>
@@ -40,10 +41,10 @@ const ServicesPage = () => {
                 <h1 className='Trosa'>From Scratch</h1>
                 <p>Pakken “From Scratch” er for dig der ikke har en eksisterende hjemmeside. Vi hjælper dig derfor med at få alt startet op fra bunden. Her vil det variere meget alt efter hvor meget du har i forvejen og hvor meget hjælp du gerne vil have fra os til f.eks. målgruppe, brugerundersøgelser og indhold. Uanset hvad finder vi frem til den bedste løsning for dig, hvor du starter din hjemmeside og visuelle identitet op med de allerbedste forudsætninger med udgangspunkt i vores bæredygtigheds principper. 
                 </p>
-                <div className='btnpil'>
+                <Link className='btnpil' to="/kontakt">
                   BOOK ET MØDE
                   <img className="pil" src={pil}></img>
-                </div>
+                </Link>
             </div>
             <div className='txtRight'>
               <h3>INKLUDERET I PAKKEN</h3>
@@ -69,10 +70,10 @@ const ServicesPage = () => {
                 Og ikke nok med at en deep clean af din hjemmeside vil gøre den endnu hurtigere, fylde mindre og dermed rangere bedre på søgemaskiner, så vil det også bidrage til en mindre CO2 udledning i forbindelse med brug af jeres hjemmeside.
 
                 </p>
-                <div className='btnpil'>
+                <Link className='btnpil' to="/kontakt">
                   BOOK ET MØDE
                   <img className="pil" src={pil}></img>
-                </div>
+                </Link>
             </div>
             <div className='txtRight'>
               <h3>INKLUDERET I PAKKEN</h3>
@@ -93,10 +94,10 @@ const ServicesPage = () => {
                 <h1 className='Tlysg'>Picture Perfect</h1>
                 <p>Hvis du lige har kørt din hjemmeside igennem en hjemmeside der måler, hvor meget CO2 din hjemmeside udleder pr page load, og det er gået op for dig at dine billeder og video er det der fylder allermest, så er “Picture perfect” pakken en nem og overskuelig måde hurtig at formindske din CO2 udledning på. Her ville det primære fokus være at optimere, tilpasse, vælge og oprydde både billeder og video på din side. Derudover vil der også være mulighed for at vælge en mere grafisk måde at spice din hjemmeside op, enten med din farvepalette, fonts eller grafiske elementer.
                 </p>
-                <div className='btnpil'>
+                <Link className='btnpil' to="/kontakt">
                   BOOK ET MØDE
                   <img className="pil" src={pil}></img>
-                </div>
+                </Link>
             </div>
             <div className='txtRight'>
               <h3>INKLUDERET I PAKKEN</h3>
@@ -118,10 +119,10 @@ const ServicesPage = () => {
                 Pssst… vores egen hjemmeside er opbygget ud fra principperne i denne pakke. 
 
                 </p>
-                <div className='btnpil'>
+                <Link className='btnpil' to="/kontakt">
                   BOOK ET MØDE
                   <img className="pil" src={pil}></img>
-                </div>
+                </Link>
             </div>
             <div className='txtRight'>
               <h3>INKLUDERET I PAKKEN</h3>
@@ -146,10 +147,10 @@ const ServicesPage = () => {
                 <h1 className='Trod'>Fresh Start</h1>
                 <p>Trænger du og din hjemmeside til en “fresh start”? Så er det det rigtige sted du er kommet til! Med denne pakkeløsning starter vi nemlig helt fra bunden, så vi kommer helt udenom at skulle rydde op i alt det gamle. Befriende ikke? På den måde kan vi fokusere al vores energi på at designe og udvikle en skræddersyet hjemmeside præcis til dig, ud fra vores bæredygtigheds principper. Du bestemmer helt selv i hvor høj grad du ønsker at praktisere dem, men vi kan forsikre dig om at vi nok skal levere en høj konverterende, æstetisk og brugervenlig hjemmeside til dig. Også med en helt clean udgave fuldstændig baseret på system fonts, vektor grafik, animationer og layout!
                 </p>
-                <div className='btnpil'>
+                <Link className='btnpil' to="/kontakt">
                   BOOK ET MØDE
                   <img className="pil" src={pil}></img>
-                </div>
+                </Link>
             </div>
             <div className='txtRight'>
               <h3>INKLUDERET I PAKKEN</h3>
@@ -167,9 +168,9 @@ const ServicesPage = () => {
               </p>
             </div>
         </div>
+        <div id='picknmix'></div>
         <KompEt aflangSrc={picknmix}
           className="reversrow">
-            
             <h1>Pick'n'Mix</h1>
             <p>Har du et helt specifikt ønske i tankerne, du ikke finder ovenfor, har du her mulighed for at skræddersy din helt egen løsning ud fra DINE ønsker og behov. Den ultimative kreative frihed for dig, der drømmer om noget helt særligt.</p>
            
