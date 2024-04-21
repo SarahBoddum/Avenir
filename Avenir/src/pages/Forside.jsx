@@ -8,6 +8,7 @@ import KompTre from '../components/KompTre';
 import aogs from '../assets/Images/aogs.jpg'
 import KompFire from '../components/KompFire';
 import KompFem from '../components/KompFem';
+import Footer from '../components/Footer';
 
 
 
@@ -119,7 +120,7 @@ export const Forside = () => {
                 </div>
             </div>
         </KompFem>
-
+        <Footer></Footer>
     </div>
   )
 }
