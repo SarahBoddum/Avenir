@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { collection, addDoc } from "firebase/firestore";
-import database from './database'; // Import the initialized Firebase app from firebase.js
+import database from './database'; // Import the initialized Firebase app from database.jsx
 import KompTre from '../components/KompTre';
 import coga from '../assets/Images/coga.jpg';
 import Footer from '../components/Footer';
