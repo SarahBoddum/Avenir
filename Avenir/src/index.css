@@ -880,6 +880,70 @@ p{
 }
 
 
+/*------ Booking -------*/
+
+.bookbox{
+    margin-top: 5em;
+    display: flex;
+}
+
+.bookform{
+    width: 60%;
+}
+
+.bookpic{
+    width: 30%;
+}
+
+/*------- Footer --------*/
+
+.footer{
+    background-color: #707070;
+    display: flex;
+    padding: 8vw 7vw;
+}
+
+.footer1{
+    width: 33%;
+}
+
+.footer1 p{
+    font-size: 1.3vw;
+}
+
+.footer2{
+    width: 33%;
+}
+
+.footer2 h1{
+    font-size: 2vw;
+}
+
+.footer3{
+    width: 33%;
+    display: flex;
+    align-items: baseline;
+}
+
+.footer3 img{
+    width: 35%;
+    height: fit-content;
+    margin-left: 3vw;
+}
+
+.ikonboks{
+    display: flex;
+    width: 50%;
+    margin-bottom: 2vw;
+}
+
+.ikonboks img{
+    width: 30%;
+}
+
+.infoboks{
+    width: 100%;
+}
 
 
 
@@ -1335,51 +1399,64 @@ p{
     margin-bottom: 2vh;
    }
 
-}
-
-/*------ Booking -------*/
-
-.bookbox{
-    margin-top: 5em;
-    display: flex;
-}
-
-.bookform{
-    width: 60%;
-}
-
-.bookpic{
-    width: 30%;
-}
-
-/*------- Footer --------*/
-
-.footer{
+   /*------- Footer --------*/
+   .footer{
     background-color: #707070;
     display: flex;
+    flex-direction: column;
+    padding: 15vw 7vw 20vw 7vw;
+    width: 100%;
 }
 
 .footer1{
-    width: 33%;
+    width: 100%;
+    margin-bottom: 7vw;
+}
+
+.footer1 p{
+    font-size: 5vw;
 }
 
 .footer2{
-    width: 33%;
+    width: 90%;
+    margin-bottom: 7vw;
+}
+
+.footer2 h1{
+    font-size: 10vw;
 }
 
 .footer3{
-    width: 33%;
+    width: 90%;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 7vw;
+}
+
+.footer3 img{
+    width: 40%;
+    height: fit-content;
+    margin-left: 3vw;
+}
+
+.footer3 h1{
+    font-size: 13vw;
 }
 
 .ikonboks{
     display: flex;
-    width: 80%;
+    width: 70%;
+    margin-bottom: 4vw;
 }
 
 .ikonboks img{
-    width: 33%;
+    width: 30%;
 }
 
 .infoboks{
     width: 100%;
 }
+   
+
+}
+

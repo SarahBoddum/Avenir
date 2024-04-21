@@ -2,6 +2,7 @@ import React from "react";
 import tiktok from '../assets/Images/tiktok.svg'
 import fb from '../assets/Images/fb.svg'
 import insta from '../assets/Images/insta.svg'
+import gronlogo from '../assets/Images/logoAVENIR.png'
 
 const Footer = () => {
     return (
@@ -19,10 +20,15 @@ const Footer = () => {
                     </div>
             </div>
             <div className='footer2'>
-            
+                <h1>Vi tager hånd om <span className='Trosa'>fremtidens</span> webløsninger</h1><br></br>
+                <p>
+                Tlf: +45 47 98 09 25<br></br>
+                Info@avenirstudios.dk
+                </p>
             </div>
             <div className='footer3'>
-
+                <img src={gronlogo}></img>
+                <h1>AVENIR</h1>
             </div>
 
         </div>
