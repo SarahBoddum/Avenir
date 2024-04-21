@@ -8,6 +8,7 @@ import cn from '../assets/Images/cn8.webp';
 import sb from '../assets/Images/sb.webp';
 import sk from '../assets/Images/sk.jpg';
 import aogc from '../assets/Images/aogc.jpg';
+import Footer from '../components/Footer';
 
 
 const TeamPage = () => {
@@ -86,9 +87,7 @@ const TeamPage = () => {
                 <div className='btn'>SE VORES CASES</div>
             </div>
         </KompTre>
-
-  
-        
+        <Footer></Footer>
     </div>
   )
 }

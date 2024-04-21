@@ -6,6 +6,7 @@ import gronoje from '../assets/Images/soOje.jpg';
 import aoje from '../assets/Images/AnOje.jpg';
 import KompSyv from '../components/KompSyv';
 import KompTo from '../components/KompTo';
+import Footer from '../components/Footer';
 
 const OmPage = () => {
   return (
@@ -39,6 +40,7 @@ const OmPage = () => {
             </div>
             }
         </KompTo>
+        <Footer></Footer>
     </div>
   )
 }

@@ -3,6 +3,7 @@ import { collection, addDoc } from "firebase/firestore";
 import database from './database'; // Import the initialized Firebase app from firebase.js
 import KompTre from '../components/KompTre';
 import coga from '../assets/Images/coga.jpg';
+import Footer from '../components/Footer';
 
 
 
@@ -22,7 +23,7 @@ const Kontakt = () => {
     try {
       // Get a reference to the Firebase database
       //const database = Firebase.firestore(); // Correct access to Firebase database
-      const newDoc = await addDoc(collection(database, "DokumentTypeNavn"), {
+      const newDoc = await addDoc(collection(database, "Booking"), {
         name,
         companyName,
         email,
@@ -116,6 +117,7 @@ const Kontakt = () => {
         </KompTre>
       
      
+      <Footer></Footer>
     </div>
   )
 }
