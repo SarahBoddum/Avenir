@@ -4,6 +4,7 @@ import database from './database'; // Import the initialized Firebase app from f
 import KompTre from '../components/KompTre';
 import coga from '../assets/Images/coga.jpg';
 import Footer from '../components/Footer';
+import pil from '../assets/Images/pil.svg';
 
 
 
@@ -54,65 +55,64 @@ const Kontakt = () => {
   return (
     <div className='bookbox'>
         <KompTre
+            KomptreClass="modsat"
             treimgSrc={coga}
-            treimgClass="bladimg"
+            treimgClass="bordernone"
             >
-          <h1>Book et møde hos AVENIR</h1>
+          <h1>Book et møde hos <span className='Tlysg'>AVENIR</span></h1>
       <form onSubmit={handleSubmit} className='bookform'>
-        <div>
-          <label>Navn:</label>
-          <input
-            type="text"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            required
-          />
+        <div className='todeltform'>
+          <div>
+            <input className='lilleinput' placeholder='Navn på kontaktperson'
+              type="text"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              required
+            />
+          </div>
+          <div>
+            <input className='lilleinput' placeholder='Navn på virksomhed'
+              type="text"
+              value={companyName}
+              onChange={(e) => setCompanyName(e.target.value)}
+            />
+          </div>
+        </div>
+        <div className='todeltform'>
+          <div>
+            <input placeholder='E-mail'
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+          <div>
+            <input placeholder='Telefon nummer'
+              type="tel"
+              value={phoneNumber}
+              onChange={(e) => setPhoneNumber(e.target.value)}
+              required
+            />
+          </div>
         </div>
         <div>
-          <label>Navn på virksomhed:</label>
-          <input
-            type="text"
-            value={companyName}
-            onChange={(e) => setCompanyName(e.target.value)}
-          />
-        </div>
-        <div>
-          <label>E-mail:</label>
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-        </div>
-        <div>
-          <label>Telefon nummer:</label>
-          <input
-            type="tel"
-            value={phoneNumber}
-            onChange={(e) => setPhoneNumber(e.target.value)}
-            required
-          />
-        </div>
-        <div>
-          <label>Ønskede møde tidspunkt:</label>
-          <input
+          <input placeholder='Ønskede mødetidspunkter'
             type="text"
             value={meetingTime}
             onChange={(e) => setMeetingTime(e.target.value)}
             required
           />
         </div>
-        <div>
-          <label>Skriv hvilke pakker du er interesseret i:</label>
-          <input
+        <div className='storinput'>
+          <textarea placeholder='Skriv hvilke pakker du er interesseret i eller hvis du har andre kommentarer...'
             type="text"
             value={interestedPackages}
             onChange={(e) => setInterestedPackages(e.target.value)}
             required
           />
         </div>
-        <button type="submit">Send Booking</button>
+        <button type="submit">Send Booking <img src={pil}></img></button>
       </form>
       </KompTre>
       <Footer></Footer>
