@@ -334,6 +334,12 @@ p{
     margin-bottom: 20vh;
     display: flex;
 }
+.modsat{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20vh;
+    display: flex;
+}
 .treimg{
     width: 40%;
     height: auto;
@@ -367,6 +373,7 @@ p{
 .bordernone{
     border-radius: none;
     margin-left: 5vw;
+
 }
 
 /*--------------KompFire-------------*/
@@ -1212,6 +1219,9 @@ button:hover{
     .KompTre{
         flex-direction: column;
     }
+    .modsat{
+        flex-direction: column-reverse;
+    }
     .treimg{
         width: 100%;
     }
@@ -1464,6 +1474,75 @@ button:hover{
     font-size: 10vw;
     margin-bottom: 2vh;
    }
+/*------- Booking -------*/
+
+.bookbox{
+    margin-top: 25vw;
+}
+
+.bookbox input{
+    width: 118%;
+    background-color: #201F1F;
+    border: 1px solid #fff;
+    color:#fff;
+    padding: 2vw 3vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 5vw;
+    line-height: 1.5;
+    margin-bottom: 4vw;
+}
+
+::placeholder{
+    color:#fff;
+}
+
+.bookbox h1{
+    font-size: 10vw;
+    padding-top: 5vw;
+}
+
+.todeltform{
+    width: 100%;
+    display: block;
+}
+
+.storinput textarea{
+    height: 80vw;
+    text-align: start;
+    width: 118%;
+    background-color: #201F1F;
+    border: 1px solid #fff;
+    color:#fff;
+    padding: 2vw 3vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 5vw;
+    line-height: 1.5;
+    margin-bottom: 5vw;
+}
+
+button{
+    background-color: #201F1F;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 5vw;
+    line-height: 1.5;
+    color: #FA8655;
+    text-transform: uppercase;
+    display: flex;
+}
+
+button img{
+    width: 8vw;
+    margin-left: 1vw;
+}
+
+button:hover{
+    font-size: 6vw;
+    transition: 0.3s ease-in-out;
+}
 
    /*------- Footer --------*/
    .footer{

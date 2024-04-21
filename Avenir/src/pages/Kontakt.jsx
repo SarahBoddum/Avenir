@@ -55,6 +55,7 @@ const Kontakt = () => {
   return (
     <div className='bookbox'>
         <KompTre
+            KomptreClass="modsat"
             treimgSrc={coga}
             treimgClass="bordernone"
             >
