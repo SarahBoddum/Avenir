@@ -11,8 +11,8 @@ import Navigation from './components/Navigation';
 import TeamPage from './pages/Team';
 import BaredygtigPage from './pages/Baredygtig';
 
-function App() {
 
+function App() {
   return (
     <>
      <Navigation />

@@ -8,7 +8,6 @@ import KompFire from '../components/KompFire';
 import KompFem from '../components/KompFem';
 import aogs from '../assets/Images/aogs.jpg'
 import KompTre from '../components/KompTre';
-import animation from '../assets/Images/animationAvenir.mp4'
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
 
@@ -19,9 +18,9 @@ export const Forside = () => {
   return (
     <div>
         <div id='forsidetop'>
-            <video className='blad' muted autoPlay>
-                <source src={animation} className='animation'></source>
-            </video>
+            
+
+    <iframe className='blad' src="https://lottie.host/embed/537f0d85-6157-4009-a86e-0bc58ff3901f/Uk4Yqd1H7h.json"></iframe>
             <div id='ramme' style={{backgroundImage: `url(${logo})`}}>
                 <h1>AVENIR</h1>
                 <h3 className='laptop'>VI DESIGNER FREMTIDENS <br />DIGITALE WEB <br />LØSNINGER</h3>
