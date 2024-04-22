@@ -11,7 +11,7 @@ const KompTre = (props) => {
         <div className='h1-p'>
             {content}
         </div>
-        <img src={treimgSrc} alt="Aflang billede" className={`treimg ${treimgClass}`} />
+        <img src={treimgSrc} alt="Aflang billede" className={`treimg ${treimgClass}`}  loading="lazy"/>
     </div>
   )
 }

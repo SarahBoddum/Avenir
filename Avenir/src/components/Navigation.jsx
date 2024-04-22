@@ -26,7 +26,7 @@ export default function Navigation() {
             }} id="burger-menu">
                 <span></span>
             </div>
-            <NavLink className={"navlink mobil"} id="Mlogolink" to="/" onClick={toggleBurger}><img id="Mlogo" src={logo} alt="Logo"></img>AVENIR</NavLink>
+            <NavLink className={"navlink mobil"} id="Mlogolink" to="/" onClick={toggleBurger}><img id="Mlogo" src={logo} alt="Logo" loading="lazy"></img>AVENIR</NavLink>
             <div id="menu" className={burgerActive ? 'overlay' : null}>
                 <div id="xul">
                     <NavLink className={"navlink laptop"} id="logolink" to="/" onClick={toggleBurger}><img id="logo" src={logo} alt="Logo"></img> AVENIR</NavLink>

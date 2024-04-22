@@ -6,6 +6,7 @@
     font-style: normal;
 }
 
+
 *{
     margin: 0;
     top: 0;
@@ -134,22 +135,24 @@ p{
 
 }
 .dropdown-content{
-    color: #ffff;
-    position: absolute;
-    z-index: 1;
-    width: 100vw;
-    height: 60px;
-    background-color: #201F1F;
-    text-align: center;
-    font-size: 1.2vw;
-    margin-top: 30px; 
+    margin-top: 40%;
     display:none;
+    color: black;
+    position: absolute;
+    height: fit-content;
+    z-index: 1;
+    min-width: 240px;
+    background-color: #201F1F;
+    text-align: left;
+    font-size: 15px;
+    padding: 10px;
 }
 .dropdown:hover{
     background-color: #201F1F;
 }
 .dropdown:hover .dropdown-content{
-    display: block flex;   
+    display: block flex; 
+    flex-direction: column;  
 }
 
 
@@ -211,7 +214,7 @@ p{
     font-weight: lighter;
     color: white;
     text-align: center;
-    padding-top:1.25vh;
+    padding-top:1.15vh;
     text-decoration: none;
 }
 .btn:hover{
@@ -423,6 +426,7 @@ p{
     border-top-left-radius: 10vw;
     border-top-right-radius: 10vw;
 }
+
 .tombBaggrundTo{
     background-size: 110%;
     width: 20vw;
@@ -431,17 +435,29 @@ p{
     background-color: #ADFD82;
     background-repeat: no-repeat;
     background-position-y: bottom;
+    
     border-top-left-radius: 10vw;
     border-top-right-radius: 10vw;
+}
+.grafik2{
+    background-size: 90%;
+}
+.grafik1{
+    background-size: 90%;
 }
 .tombBaggrundTre{
     height: 70vh;
     margin-top: 10vh;
     background-color: #D2F69E;
     background-repeat: no-repeat;
-    background-size: 119%;
+    background-size: 130%;
     background-position-y: bottom;
 }
+.grafik3{
+    background-size: 280%;
+    background-position-x: 70%;
+}
+
 .tombtxt{
     height: 100%;
     display: flex;
@@ -450,6 +466,7 @@ p{
     padding-bottom: 5vh;
     padding-top: 3vh;
 }
+
 .tombtxt p{
     color: #201F1F;
 }
@@ -465,8 +482,13 @@ p{
     background-color: #FA8655;
     background-repeat: no-repeat;
     background-size: 130%;
-    background-position-y: bottom;
-    background-position-x: -7vh;
+    background-position-y: 100%;
+    background-position-x: 90%;
+}
+.grafik4{
+    background-size: 250%;
+    background-position-y: 140%;
+    background-position-x: 90%;
 }
 .tombtxt h1{
     margin-left: 6%;
@@ -476,6 +498,9 @@ p{
     font-size: 2vw;
     color: #FE4F32;
     padding-left: 5%;
+}
+.tombtxt h2{
+    font-size:4vw;
 }
 .tombtxt p{
     padding-left: 5%;
@@ -498,10 +523,7 @@ p{
     text-align: center;
     margin-top: 7vh;
 }
-.teamKompfire h3{
-    color: #201F1F;
-    font-weight:300; 
-}
+
 .teamKompfire p{
     color: #201F1F;
 }
@@ -849,6 +871,15 @@ p{
 .txtLeft .btnpil .pil{
     margin-top: -0.5vh;
 }
+.reversrow .btnpil{
+    width: 40%;
+    height: 5vh;
+    padding-left: 0%;
+    margin-top: 3vh;
+}
+.reversrow .btnpil .pil{
+    margin-top: -0.5vh;
+}
 .txtRight{
     width: 41%;
     padding-left: 1%;
@@ -1043,7 +1074,8 @@ button:hover{
 
 .footer3 img{
     width: 35%;
-    height: fit-content;
+
+    height: auto;
     margin-left: 3vw;
 }
 
@@ -1176,11 +1208,15 @@ button:hover{
     }
     .dropdown-content{
        margin-bottom: 4vh;
-       font-size: 12pt;
-       
        flex-direction: column;
+       margin-top: 4vh;
+       background-color: none;
+       margin-left: 40%;
+       display: none;
     }
-
+    .dropdown-content .navlink{
+        font-size: 15pt;
+    }
     /*------------forside----------------*/
 
     #forsidetop{
@@ -1310,6 +1346,9 @@ button:hover{
     .tombtxt{
         padding-bottom: 10vh;
     }
+    .tombtxt h2{
+        font-size: 10vw;
+    }
     .tombtxt h1{
         font-size: 50vw;
         margin-left: 8%;
@@ -1322,6 +1361,11 @@ button:hover{
         margin-left: 5%;
         font-size: 7vw;
     }
+    .grafik4{
+        background-size: 220%;
+        background-position-x: 100%;
+    }
+    
     /*----------kompfem-------*/
     .storRamme{
         width: 90vw;

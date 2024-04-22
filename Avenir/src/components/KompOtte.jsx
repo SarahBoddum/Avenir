@@ -13,7 +13,7 @@ const KompOtte = (props) => {
             {content}
         </div>
         <div className={`StjerneCirkler ${skjulStjerneCirkler}`}>
-            <img src={hvidstjerne} className='StjerneOtte'></img>
+            <img src={hvidstjerne} className='StjerneOtte' loading="lazy"></img>
             <div className='cirkelramme'>
                 <div className='cirkeltop'>
                     <div className={`CTV ${CTVclassName}`}></div>

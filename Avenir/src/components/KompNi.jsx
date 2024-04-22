@@ -8,7 +8,7 @@ const KompNi = (props) => {
     <div className='KompNi'>
         
         <div className={`Lilleramme ${LRclassName}`}>
-            <img src={LRimg} className='LSaflangRotate'></img>
+            <img src={LRimg} className='LSaflangRotate' loading="lazy"></img>
             <div className='LSramme'>
                 <div className={`LilleV ${LVclassName}`}></div>
                 <div className={`LilleHT ${LilleHT}`}></div>

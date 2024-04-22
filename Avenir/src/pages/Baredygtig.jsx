@@ -3,6 +3,11 @@ import KompFem from '../components/KompFem';
 import aoje from '../assets/Images/AnOje.jpg';
 import KompOtte from '../components/KompOtte';
 import Footer from '../components/Footer';
+import KompFire from '../components/KompFire';
+import al from '../assets/Images/grafik1.svg';
+import cn from '../assets/Images/grafik2.svg';
+import sb from '../assets/Images/grafik4.svg';
+import sk from '../assets/Images/grafik3.svg';
 
 export const BaredygtigPage = () => {
   return (
@@ -18,6 +23,52 @@ export const BaredygtigPage = () => {
                 
             </div>
         </KompFem>
+        <div className='KompFire'>
+            <KompFire
+            tombImg={sb}
+            tombclassName="tombBaggrundEt grafik1">
+            <div className='tombtxt'>
+                <div className='teamKompfire'>
+                   <h2>.01</h2>
+                   <p>KOMPRIMERING</p>
+                </div>  
+            </div>
+
+            </KompFire>
+            <KompFire
+            tombImg={cn}
+            tombclassName="tombBaggrundTo grafik2">
+            <div className='tombtxt'>
+                <div className='teamKompfire'>
+                   <h2>.02</h2>
+                   <p>NAVIGATION</p>
+                </div> 
+            </div>
+
+            </KompFire>
+            <KompFire
+            tombImg={al}
+            tombclassName="tombBaggrundTre grafik3">
+            <div className='tombtxt'>
+                <div className='teamKompfire'>
+                   <h2>.03</h2>
+                   <p>HONEST</p>
+                </div> 
+            </div>
+
+            </KompFire>
+            <KompFire
+            tombImg={sk}
+            tombclassName="tombshapeEt tombBaggrundFire grafik4">
+            <div className='tombtxt'>
+                <div className='teamKompfire'>
+                   <h2>.04</h2>
+                   <p>KODE/HOSTING</p>
+                </div> 
+            </div>
+
+            </KompFire>
+            </div>
 
         <KompOtte
             CTVclassName="colorunset"

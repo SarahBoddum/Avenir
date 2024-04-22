@@ -11,9 +11,9 @@ export const KompSyv = (props) => {
       <div className='SyvText'>
         {content}
       </div>
-      <img src={hvidstjerne} alt="AVENIR logo med sjterne" className='hvidstjerne'/>
+      <img src={hvidstjerne} alt="AVENIR logo med sjterne" className='hvidstjerne' loading="lazy"/>
       <div className={`Lilleramme ${LRclassName}`}>
-        <img src={LRimg} className='LSaflang'></img>
+        <img src={LRimg} className='LSaflang' loading="lazy"></img>
         <div className='LSramme'>
           <div className={`LilleV ${LVclassName}`}></div>
           <div className={`LilleH ${LilleH}`}></div>

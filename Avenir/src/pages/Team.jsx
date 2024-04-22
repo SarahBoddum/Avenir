@@ -38,7 +38,7 @@ const TeamPage = () => {
             tombclassName="tombBaggrundEt">
             <div className='tombtxt'>
                 <div className='teamKompfire'>
-                   <h3>ANNA HEJNDORF</h3>
+                   <p>ANNA HEJNDORF</p>
                    <p>CEO</p>
                 </div>  
             </div>
@@ -49,7 +49,7 @@ const TeamPage = () => {
             tombclassName="tombBaggrundTo">
             <div className='tombtxt'>
                 <div className='teamKompfire'>
-                   <h3>CECILIE BRODERSEN</h3>
+                   <p>CECILIE BRODERSEN</p>
                    <p>CREATIVE DIRECTOR</p>
                 </div> 
             </div>
@@ -60,7 +60,7 @@ const TeamPage = () => {
             tombclassName="tombBaggrundTre">
             <div className='tombtxt'>
                 <div className='teamKompfire'>
-                   <h3>SARAH BODDUM</h3>
+                   <p>SARAH BODDUM</p>
                    <p>BRAND SPECIALIST</p>
                 </div> 
             </div>
@@ -71,7 +71,7 @@ const TeamPage = () => {
             tombclassName="tombshapeEt tombBaggrundFire">
             <div className='tombtxt'>
                 <div className='teamKompfire'>
-                   <h3>SOPHIE KILLEEN</h3>
+                   <p>SOPHIE KILLEEN</p>
                    <p>COO</p>
                 </div> 
             </div>

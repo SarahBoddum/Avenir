@@ -10,7 +10,7 @@ import aogs from '../assets/Images/aogs.jpg'
 import KompTre from '../components/KompTre';
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
-
+import aoje from '../assets/Images/Servicetop.jpg'
 
 
 
@@ -104,7 +104,7 @@ export const Forside = () => {
 
         <KompFem
         SRlilleflip="SRmidtL orange"
-        SRimg={gronoje}>
+        SRimg={aoje}>
             <div>
                 <h1 className='storH1'>Services</h1>
                 <p>Som en del af vores services inkorporerer vi vores bæredygtigsheds principper i vores web løsninger.  Vi imødekommer dine behov omend det er en af vores pakkeløsninger - eller vores Pick’n’Mix løsning. </p>
@@ -112,7 +112,7 @@ export const Forside = () => {
                     <Link className="btn storbtn" to="/Services">
                         PAKKELØSNINGER
                     </Link>                
-                    <Link className='btnpil' to="/Services#picknmix">
+                    <Link className='btnpil' to="/Services">
                         PICK'N'MIX
                         <img className="pil" src={pil}></img>
                     </Link>

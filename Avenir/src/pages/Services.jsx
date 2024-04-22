@@ -19,17 +19,17 @@ const ServicesPage = () => {
                   <h1 className='storH1'>Services</h1>
                   <p>Som en del af vores services inkorporerer vi vores bæredygtigsheds principper i vores web løsninger.  Vi imødekommer dine behov omend det er en af vores pakkeløsninger - eller vores Pick’n’Mix løsning. </p>
                   <div className="btndiv leftalign">
-                      <Link className="btn storbtn">
+                      <a href="#pakkelosning" className="btn storbtn">
                           PAKKELØSNINGER
-                      </Link>                
-                      <Link className='btnpil'>
+                      </a>                
+                      <a href="#picknmix" className='btnpil'>
                           PICK'N'MIX
-                          <img className="pil" src={pil} to="/services#picknmix"></img>
-                      </Link>
+                          <img className="pil" src={pil}></img>
+                      </a>
                   </div>
               </div>
         </KompFem>
-       
+        <div id="pakkelosning"></div>
         <KompEt aflangSrc={serviceto}>
             
             <h1 className='storH1'>Pakkeløsninger</h1>
@@ -173,7 +173,10 @@ const ServicesPage = () => {
           className="reversrow">
             <h1>Pick'n'Mix</h1>
             <p>Har du et helt specifikt ønske i tankerne, du ikke finder ovenfor, har du her mulighed for at skræddersy din helt egen løsning ud fra DINE ønsker og behov. Den ultimative kreative frihed for dig, der drømmer om noget helt særligt.</p>
-           
+            <Link className='btnpil' to="/kontakt">
+                  BOOK ET MØDE
+                  <img className="pil" src={pil}></img>
+            </Link>
         </KompEt>
         <KompOtte
             skjulStjerneCirkler="displayNone"

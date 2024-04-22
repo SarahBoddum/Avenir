@@ -9,9 +9,9 @@ const Footer = () => {
         <div className='footer'>
             <div className='footer1'>
                 <div className='ikonboks'>
-                    <img src={fb}></img>
-                    <img src={insta}></img>
-                    <img src={tiktok}></img>
+                    <img src={fb} loading="lazy"></img>
+                    <img src={insta} loading="lazy"></img>
+                    <img src={tiktok} loading="lazy"></img>
                 </div>
                     <div className='infoboks'>
                         <p>Ringvej Syd 104 <br></br>
@@ -27,7 +27,7 @@ const Footer = () => {
                 </p>
             </div>
             <div className='footer3'>
-                <img src={gronlogo}></img>
+                <img src={gronlogo} loading="lazy"></img>
                 <h1>AVENIR</h1>
             </div>
 

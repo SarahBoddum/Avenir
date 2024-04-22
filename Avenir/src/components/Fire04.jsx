@@ -9,7 +9,7 @@ const Fire04Page = () => {
     <div className='Baredygtig'>
       <div className='KompEt'>
         <div className='figurramme'>
-          <img src={gronoje} alt="Aflang billede" className='aflang'/>
+          <img src={gronoje} alt="Aflang billede" className='aflang' loading="lazy"/>
           <div className='tosma'>
             <div className='enrund rosa'></div>
             <div className='torund orange'></div>

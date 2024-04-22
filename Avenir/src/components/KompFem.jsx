@@ -13,7 +13,7 @@ const KompFem = (props) => {
             </div>
             <div className={`SRmidt ${SRmidtclassName}`}>
                 <div className={`SRmidtlille ${SRlilleflip}`}></div>
-                <img src={SRimg}  alt="Aflang billede" className='SRimg' />
+                <img src={SRimg}  alt="Aflang billede" className='SRimg' loading="lazy"/>
             </div>
             <div className='SR'>
                 <div className='rundHT neongron'></div>
